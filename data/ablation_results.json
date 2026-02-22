@@ -1,0 +1,183 @@
+{
+  "full": {
+    "active_dimensions": [
+      "isolation",
+      "chain",
+      "preparation"
+    ],
+    "human_flagged": 1,
+    "human_total": 25,
+    "human_rate": 0.04,
+    "llm_flagged": 27,
+    "llm_total": 100,
+    "llm_rate": 0.27,
+    "cohens_h": 0.6900852866952829,
+    "fisher_one_sided_p": 0.008245764635702696,
+    "fisher_two_sided_p": 0.014193562361905013,
+    "per_model": {
+      "human_richard": {
+        "n": 5,
+        "flagged": 0
+      },
+      "human_published": {
+        "n": 20,
+        "flagged": 1
+      },
+      "sonnet_original": {
+        "n": 20,
+        "flagged": 6
+      },
+      "haiku": {
+        "n": 20,
+        "flagged": 7
+      },
+      "sonnet_replication": {
+        "n": 20,
+        "flagged": 3
+      },
+      "gpt4o": {
+        "n": 20,
+        "flagged": 3
+      },
+      "gemini": {
+        "n": 20,
+        "flagged": 8
+      }
+    }
+  },
+  "no_isolation": {
+    "active_dimensions": [
+      "chain",
+      "preparation"
+    ],
+    "human_flagged": 1,
+    "human_total": 25,
+    "human_rate": 0.04,
+    "llm_flagged": 33,
+    "llm_total": 100,
+    "llm_rate": 0.33,
+    "cohens_h": 0.8211635876870733,
+    "fisher_one_sided_p": 0.001685098618996658,
+    "fisher_two_sided_p": 0.0022982914617710693,
+    "per_model": {
+      "human_richard": {
+        "n": 5,
+        "flagged": 0
+      },
+      "human_published": {
+        "n": 20,
+        "flagged": 1
+      },
+      "sonnet_original": {
+        "n": 20,
+        "flagged": 7
+      },
+      "haiku": {
+        "n": 20,
+        "flagged": 9
+      },
+      "sonnet_replication": {
+        "n": 20,
+        "flagged": 4
+      },
+      "gpt4o": {
+        "n": 20,
+        "flagged": 4
+      },
+      "gemini": {
+        "n": 20,
+        "flagged": 9
+      }
+    }
+  },
+  "no_chain": {
+    "active_dimensions": [
+      "isolation",
+      "preparation"
+    ],
+    "human_flagged": 1,
+    "human_total": 25,
+    "human_rate": 0.04,
+    "llm_flagged": 21,
+    "llm_total": 100,
+    "llm_rate": 0.21,
+    "cohens_h": 0.5493517945419839,
+    "fisher_one_sided_p": 0.034514622825646456,
+    "fisher_two_sided_p": 0.07382155476083677,
+    "per_model": {
+      "human_richard": {
+        "n": 5,
+        "flagged": 0
+      },
+      "human_published": {
+        "n": 20,
+        "flagged": 1
+      },
+      "sonnet_original": {
+        "n": 20,
+        "flagged": 5
+      },
+      "haiku": {
+        "n": 20,
+        "flagged": 4
+      },
+      "sonnet_replication": {
+        "n": 20,
+        "flagged": 3
+      },
+      "gpt4o": {
+        "n": 20,
+        "flagged": 3
+      },
+      "gemini": {
+        "n": 20,
+        "flagged": 6
+      }
+    }
+  },
+  "no_preparation": {
+    "active_dimensions": [
+      "isolation",
+      "chain"
+    ],
+    "human_flagged": 2,
+    "human_total": 25,
+    "human_rate": 0.08,
+    "llm_flagged": 26,
+    "llm_total": 100,
+    "llm_rate": 0.26,
+    "cohens_h": 0.49662850996721186,
+    "fisher_one_sided_p": 0.04093936659677576,
+    "fisher_two_sided_p": 0.06250160472693003,
+    "per_model": {
+      "human_richard": {
+        "n": 5,
+        "flagged": 0
+      },
+      "human_published": {
+        "n": 20,
+        "flagged": 2
+      },
+      "sonnet_original": {
+        "n": 20,
+        "flagged": 4
+      },
+      "haiku": {
+        "n": 20,
+        "flagged": 5
+      },
+      "sonnet_replication": {
+        "n": 20,
+        "flagged": 5
+      },
+      "gpt4o": {
+        "n": 20,
+        "flagged": 4
+      },
+      "gemini": {
+        "n": 20,
+        "flagged": 8
+      }
+    }
+  }
+}

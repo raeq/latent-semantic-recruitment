@@ -1,0 +1,46 @@
+[
+  {
+    "id": "gpt4o_kit_4",
+    "domain": "kitchen_fire",
+    "model": "gpt-4o",
+    "text": "The kitchen buzzed with frenetic energy as the dinner rush descended. Heat radiated from every direction, emanating from the industrial-sized ovens and sizzling stovetops. Steam billowed up, momentarily clouding vision as sweat beaded on foreheads and dripped down necks. The clang of pots and pans rose above the rhythmic slice of knives against chopping boards. The air was thick, not just with humidity, but with the savory aroma of garlic and herbs marrying with searing meats. Metallic tablets clattered around the cooks as they navigated the narrow aisles, deftly avoiding collisions while focusing intently on their tasks. The grill hissed angrily, flames licking up beneath perfectly spaced steaks. A chef\u2019s hands moved in a blur, flipping skillets with practiced ease, sending ingredients somersaulting into the air before settling perfectly back into the pan. The incessant whir of the industrial fan fought to push out the heat, but against the toil of the kitchen, its efforts seemed futile. Amid the chaos, precision was key. Garnishes were placed with meticulous care, sauces drizzled in sweeping curves, plates wiped clean of errant smudges. Every movement was purposeful, part of an unspoken dance, as each cook worked in harmony to ensure every dish was a masterpiece amidst the swirling chaos.",
+    "orphaned": 0,
+    "earned": 0,
+    "literal_filtered": 1,
+    "orphan_details": [],
+    "earned_details": []
+  },
+  {
+    "id": "gpt4o_bat_2",
+    "domain": "battlefield_surgery",
+    "model": "gpt-4o",
+    "text": "Amidst the smoke and chaos, the field surgeon worked relentlessly, surrounded by the cacophony of battle. His hands, steady but stained with blood, moved with precision and haste. The tent was dimly lit, shadows flickering against the canvas walls from the hanging lanterns. Soldiers lay on improvised cots, their uniforms torn and soaked with sweat and blood. The surgeon examined a soldier with a deep gash across his abdomen. The wound gaped open, the edges ragged and seeped with dark blood. Quickly, he threaded a needle, its glint catching the dim light, and began stitching, every pull precise to prevent further bleeding. Another soldier, moaning softly, bore a shrapnel wound in his thigh. The surgeon retrieved a metal forceps, its cold steel a stark contrast against the warmth of the soldier\u2019s flesh. Carefully, he extracted the twisted metal fragment, now slick with blood, and dropped it with a metallic clink into a nearby tray. Sweat dripped from his brow as he moved to the next patient, washing his hands in a basin of murky water. His tools, laid carefully on a cloth beside him, gleamed ominously. Despite the overwhelming odds and the ceaseless stream of wounded, the surgeon\u2019s focus never wavered, his efforts a lifeline in the midst of desolation.",
+    "orphaned": 0,
+    "earned": 0,
+    "literal_filtered": 8,
+    "orphan_details": [],
+    "earned_details": []
+  },
+  {
+    "id": "gpt4o_bat_4",
+    "domain": "battlefield_surgery",
+    "model": "gpt-4o",
+    "text": "Amidst the chaos of battle, the field surgeon worked tirelessly in a dilapidated tent. The air was thick with the metallic scent of blood mingled with earth and gunpowder. On a makeshift table lay a soldier, his leg torn open by shrapnel. The surgeon, bathed in sweat despite the chilling air, meticulously sterilized his instruments, each one gleaming briefly under the flickering lamplight. He assessed the gaping wound swiftly, noting the jagged edges and the steady pulse of dark blood. A pair of forceps in his hand probed cautiously, seeking out metal fragments lodged deep within torn muscle. The soldier's skin was pale, a stark contrast to the crimson flow staining the cloth under him. With unwavering focus, the surgeon extracted the shrapnel, his fingers steady, guided by years of experience under fire. A needle and catgut in hand, he sutured the wound, each stitch precise, a lifeline drawn through ravaged flesh. The surgeon's hands moved with practiced efficiency, bandaging the leg, binding it tightly to stem the blood loss. Around him, the tent filled with the moans of the injured, but his attention remained fixed, saving lives one steady motion at a time, amidst the relentless turmoil outside.",
+    "orphaned": 0,
+    "earned": 0,
+    "literal_filtered": 9,
+    "orphan_details": [],
+    "earned_details": []
+  },
+  {
+    "id": "gpt4o_bla_3",
+    "domain": "blacksmith",
+    "model": "gpt-4o",
+    "text": "The blacksmith stood before the roaring forge, its intense heat radiating waves that shimmered in the air. His bare arms glistened with sweat as he worked, sinews flexing with each purposeful movement. In the dim glow, the forge's heart pulsed like a living entity, a mesmerizing dance of orange and yellow flames that devoured the coal with a relentless appetite. He plunged the iron rod into the inferno, watching as the metal turned from a dull gray to a fierce, luminescent orange. The transformation heralded readiness, and he swiftly retrieved the heated rod with tongs that clinked and groaned under the pressure. The smith laid it upon the anvil, its surface pockmarked from years of work. The hammer in his hand came down with rhythmic certainty, each strike sending a cascade of sparks into the air. The metal sang under the force, bending to his will, its form slowly emerging from the initial formlessness. With each deliberate blow, he shaped the blade, drawing from it an essence long hidden within the hardened exterior. Hot, curling wisps of smoke rose as he repeatedly reheated and hammered, tempering its strength, crafting a weapon both beautiful and deadly.",
+    "orphaned": 0,
+    "earned": 0,
+    "literal_filtered": 5,
+    "orphan_details": [],
+    "earned_details": []
+  }
+]

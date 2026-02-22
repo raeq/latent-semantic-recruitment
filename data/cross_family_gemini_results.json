@@ -1,0 +1,403 @@
+{
+  "model": "gemini-2.5-flash",
+  "family": "Google",
+  "n_passages": 20,
+  "failures": 0,
+  "total_orphaned": 10,
+  "total_earned": 9,
+  "passages_with_orphan": 8,
+  "flag_rate": 0.4,
+  "fisher_one_sided_p": 0.0037433401018200077,
+  "fisher_two_sided_p": 0.00604875647416779,
+  "cohens_h": 0.9667225644239044,
+  "ci_lower": 0.19119006022810936,
+  "ci_upper": 0.6394574157893658,
+  "grand_pooled": {
+    "total_llm_n": 100,
+    "total_llm_flagged": 28,
+    "pooled_rate": 0.28,
+    "fisher_one_sided_p": 0.0063982453190781835,
+    "fisher_two_sided_p": 0.008394872558807134,
+    "cohens_h": 0.7124818118184117,
+    "power": 0.9383799942433173
+  },
+  "passages": [
+    {
+      "id": "gemini_oce_1",
+      "domain": "ocean_storm",
+      "model": "gemini-2.5-flash",
+      "text": "The storm hit like a physical blow. The fishing trawler, the *Sea Serpent*, became a toy in the monstrous waves. It pitched violently, its bow plunging into green abysses only to be flung skyward, shuddering as tons of water cascaded over the deck. Every beam groaned, every rivet strained. The diesel engine, a guttural roar, fought against the ocean's fury, its propeller often screaming uselessly as the stern lifted clear of the water. Below deck, the crew braced themselves against bulkheads, their faces grim, streaked with salt and sweat. One man, lashed to the helm, wrestled the wheel, his knuckles white as he fought to keep the *Sea Serpent* pointed into the incoming swells. Others, clutching stanchions, crawled precariously along the pitching deck, attempting to secure loose gear before it was swept overboard. The air, thick with diesel fumes and brine, was punctuated by the crash of waves and the terrified shriek of protesting metal. Each surge threatened to rip the vessel apart, leaving them adrift in the chaotic, churning dark.",
+      "orphaned": 1,
+      "earned": 0,
+      "literal_filtered": 4,
+      "orphan_details": [
+        {
+          "word": "roar",
+          "score": 0.7708333333333334,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "The diesel engine, a guttural roar, fought against the ocean's fury, its propeller often screaming uselessly as the ster"
+        }
+      ],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_oce_2",
+      "domain": "ocean_storm",
+      "model": "gemini-2.5-flash",
+      "text": "The *Sea Serpent* bucked like a wild stallion, its timbers groaning in protest against the monstrous waves. What began as a squall had escalated into a full-blown tempest, the ocean transformed into a maelstrom of black water and white spume. Each crashing wave devoured the bow, sending tons of freezing water sweeping across the deck, threatening to drag anything overboard. The men moved with desperate urgency, their oilskins slick and heavy, faces grim beneath the relentless spray. One man clung to the wheel, muscles taut, fighting to keep the vessel pointed into the oncoming mountains of water. Others strained against snapping ropes, securing loose nets that threatened to become lethal projectiles. Below deck, rhythmic sloshing indicated water seeping in, prompting another to grab a bucket, beginning the endless task of bailing. Every lurch, every sickening drop, threatened to tear them from their footing. The air filled with the shriek of the wind, the roar of the surf, and the desperate creak of wood, a symphony of the storm\u2019s raw power. They were utterly at the sea's mercy.",
+      "orphaned": 0,
+      "earned": 1,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": [
+        {
+          "word": "roar",
+          "score": 0.5,
+          "fields": [
+            "water_weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_oce_3",
+      "domain": "ocean_storm",
+      "model": "gemini-2.5-flash",
+      "text": "The *Sea Serpent* bucked violently, its wooden hull groaning like a dying beast as the storm intensified. Monstrous waves, dark grey with frothing white crests, rose from the abyss, lifting the vessel high before slamming it into the next trough. Water, cold and relentless, continually swept across the deck, tearing at anything not securely fastened. Crewmen, soaked to the bone and shivering, moved with a desperate urgency, their bodies braced against the incessant pitching. One man, Elias, clung to a stanchion, straining to secure a flapping tarpaulin, his knuckles white as the boat plunged. Another, the skipper, wrestled the helm in the wheelhouse, his face a mask of grim determination, muscles bulging with the effort of fighting the ocean's raw power. The engine roared a defiant protest, its vibrations thrumming through the deck plates. Each sickening lurch felt like the last, the spray blinding, the wind a howling banshee tearing at their very souls. Their world was a churning, chaotic blur of green-grey water and spray, relentless and unforgiving.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_oce_4",
+      "domain": "ocean_storm",
+      "model": "gemini-2.5-flash",
+      "text": "The storm descended with brutal swiftness, engulfing the *Seawolf* in a maelstrom of wind and water. Waves, black and towering, rose like liquid cliffs before crashing over the bow, sweeping the deck clean. The fishing vessel became a groaning, pitching toy, straining against each colossal impact. Water poured relentlessly into the holds, the bilge pumps whining in a desperate, losing battle against the ingress. John, his face grimed with salt and exhaustion, clung to a stanchion, his knuckles bone-white. He squinted against the stinging spray, trying to gauge the approach of the next monstrous wave. The wind shrieked through the tattered rigging, a mournful, relentless cry. Suddenly, a massive swell lifted the stern, tilting the boat precariously, sending loose nets and gear skidding across the slick deck. Crew members scrambled, their movements precise yet frantic, securing anything that threatened to break free. Their faces were etched with a silent, grim determination, muscles straining against the ocean\u2019s immense power. The deck was a chaos of churning white water and shifting shadows, the air thick with the metallic tang of salt and the smell of straining diesel. Survival, raw and undeniable, was the sole command in every man's mind.",
+      "orphaned": 1,
+      "earned": 0,
+      "literal_filtered": 3,
+      "orphan_details": [
+        {
+          "word": "cry",
+          "score": 0.8205868205868206,
+          "fields": [
+            "personification"
+          ],
+          "sentence": "The wind shrieked through the tattered rigging, a mournful, relentless cry."
+        }
+      ],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_saw_1",
+      "domain": "sawmill",
+      "model": "gemini-2.5-flash",
+      "text": "He remembered the ceaseless roar of the sawmill. A high-pitched whine from the giant band saw, a deeper thrum from the conveyors, all beneath the pervasive scent of fresh-cut pine and engine grease. Logs, rough and bark-laden, tumbled onto the debarker, shedding their skin before rolling towards the head saw. He stood at the carriage, his calloused hands gripping the levers, guiding the immense timber into the blade's hungry path. Sawdust, thick and golden, erupted in plumes, coating everything, settling on his sweat-damp clothes and stinging his eyes despite the safety glasses. The slab fell, rumbling down to the edger, where smaller blades squared the rough edges. He pushed the heavy planks onto the rollers, feeling the vibrations travel up his arms. Splinters, sharp and unseen, pricked his skin regularly, a constant reminder of the raw material he handled. Each piece of lumber, still warm from the cut, carried the faint, resinous aroma. He watched as the trimmer\u2019s multiple saws sliced the long boards to length, the precise cuts echoing through the vast, open space. His muscles ached, shoulders heavy from the repetitive movements, but the rhythmic clang and hiss continued, turning nature\u2019s giants into neat, stackable timber, piece by laborious piece.",
+      "orphaned": 1,
+      "earned": 1,
+      "literal_filtered": 2,
+      "orphan_details": [
+        {
+          "word": "roar",
+          "score": 0.9318181818181818,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "He remembered the ceaseless roar of the sawmill."
+        }
+      ],
+      "earned_details": [
+        {
+          "word": "hungry",
+          "score": 0.5,
+          "fields": [
+            "consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_saw_2",
+      "domain": "sawmill",
+      "model": "gemini-2.5-flash",
+      "text": "He remembered the ceaseless roar of the mill, a deafening symphony of grinding steel and tearing timber. Each morning, the air hung thick with pine dust and the acrid tang of freshly cut sap. His hands, calloused and perpetually grimed with resin, guided heavy logs onto the conveyor, their rough bark scraping against the steel rollers with a dry rasp. The massive debarker spun, stripping away the outer layer, sending chunks of bark flying into a chute. Next, the screaming band saw sliced through the naked trunk, its long blade a silver blur, transforming the log into colossal cants with astonishing speed. Splinters, sharp as needles, often embedded themselves in his denim work clothes, a constant, minor torment. He pushed planks, still steaming from the cut, along rollers, the rhythmic clatter and deep vibrations shaking his bones. Sweat dripped into his eyes, blurring the sight of the shimmering, hungry blades. The pervasive smell of hot metal, raw wood, and machine oil was ingrained in his senses. Stacks of fresh lumber rose around him, a temporary testament to the forest\u2019s sacrifice and man\u2019s relentless, physical labor. The work never stopped; another raw log always waited its turn.",
+      "orphaned": 1,
+      "earned": 1,
+      "literal_filtered": 4,
+      "orphan_details": [
+        {
+          "word": "roar",
+          "score": 0.8333333333333334,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "He remembered the ceaseless roar of the mill, a deafening symphony of grinding steel and tearing timber."
+        }
+      ],
+      "earned_details": [
+        {
+          "word": "hungry",
+          "score": 0.2333333333333333,
+          "fields": [
+            "consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_saw_3",
+      "domain": "sawmill",
+      "model": "gemini-2.5-flash",
+      "text": "He remembered the ceaseless roar of the sawmill. A colossal band saw, its teeth glinting, tore through Douglas fir logs with a high-pitched scream. He stood at the infeed, a lever in his calloused hand, guiding the massive timber onto the conveyor. The vibration from the machinery pulsed through the wooden floorboards and up his legs, a constant tremor. Sawdust, fine as flour, coated every surface, clinging to his denim overalls and settling in his hair. The air was thick with the sweet, resinous scent of freshly cut wood, mingling with the acrid tang of hot metal. Once the blade had done its work, turning a raw log into a rough-hewn cant, he\u2019d shift position. He\u2019d grab a heavy, splintery plank as it emerged, pushing it onto the next line where smaller circular saws waited to trim it to size. The raw edge felt rough beneath his leather-gloved fingers. Each movement was deliberate, powerful, driven by the rhythmic demands of the hungry machines. The dust irritated his throat, a familiar scratch. He watched the endless procession of wood, transforming from forest giant to usable lumber, a process he knew intimately.",
+      "orphaned": 1,
+      "earned": 2,
+      "literal_filtered": 3,
+      "orphan_details": [
+        {
+          "word": "roar",
+          "score": 0.6984848484848484,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "He remembered the ceaseless roar of the sawmill."
+        }
+      ],
+      "earned_details": [
+        {
+          "word": "scream",
+          "score": 0.5,
+          "fields": [
+            "personification"
+          ]
+        },
+        {
+          "word": "hungry",
+          "score": 0.10000000000000002,
+          "fields": [
+            "consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_saw_4",
+      "domain": "sawmill",
+      "model": "gemini-2.5-flash",
+      "text": "The sawmill air always hummed with a deep, resonant rumble, punctuated by the high-pitched shriek of blades. He stood by the main carriage, watching enormous logs, freshly debarked, be rolled onto the automated track. The massive band saw descended, was tearing through the timber with a visceral rip, sending showers of damp sawdust and fragrant steam into the air. With a grunt, he guided the resulting planks onto a conveyor, his gloved hands accustomed to the rough texture of the fresh-cut wood. Next, the boards moved towards the edger, where smaller, buzzing circular saws trimmed the irregular edges. His arms ached from the repetitive motion of pushing heavy lumber, ensuring each piece fed correctly. The constant vibration from the floor seeped into his boots and bones. Splinters were an occupational hazard, often ignored amidst the relentless thud of planks dropping onto stacks. The sweet, resinous scent of pine clung to his clothes and skin, a constant reminder of the day\u2019s labor. Every movement was a dance with powerful, unforgiving machinery, turning raw trees into neat, uniform boards under a perpetual cloud of golden dust.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_kit_1",
+      "domain": "kitchen_fire",
+      "model": "gemini-2.5-flash",
+      "text": "The kitchen roared, a furnace of clanking steel and sizzling fat. Heat, thick and oppressive, radiated from every surface, clinging to Chef Antoine\u2019s sweat-soaked apron. He sliced through a tenderloin with surgical precision, the blade a blur against the cutting board, then pivoted to grab a scorching saut\u00e9 pan, its handle searing even through his towel. Oil shimmered, then hissed as chopped vegetables hit the blistering metal. His eyes, sharp and focused, scanned the pass, tracking a relentless stream of orders, his voice cutting through the din to announce dishes ready for pickup. He whisked a pan from the searing induction hob, plating a perfectly seared dish with swift, deliberate movements \u2013 a splash of sauce, a sprig of garnish. Stainless steel counters gleamed under harsh lights, reflecting a cascade of steam from a freshly drained pasta pot. Knives clattered, tongs scraped, and the fryer\u2019s constant hum was a low, insistent thrum beneath the cacophony. Every breath was hot, every movement a precise dance amidst the demanding, unforgiving rhythm of the dinner rush.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_kit_2",
+      "domain": "kitchen_fire",
+      "model": "gemini-2.5-flash",
+      "text": "The kitchen was a furnace. Heat radiated off the roaring six-burner range, the blistering griddle, and the deep-fat fryers bubbling incessantly. Steam billowed from pots of pasta, fogging the already greasy air. Chef Anya, her whites clinging to her back, moved with practiced urgency. Her hands, calloused and quick, flipped scallops on the plancha, the sizzle a sharp punctuation in the symphony of clatter. She pivoted, grabbing a hot pan with a towel, tossing perfectly saut\u00e9ed green beans into a metal bowl before plating them with a seared duck breast. Her knife flashed across a cutting board, julienning peppers with rhythmic precision. Orders ticketed faster than she could clear them. She scooped mashed potatoes onto a preheated plate, then wiped its rim spotless with a damp cloth, just as the expediter barked for the next two steaks. Sweat beaded on her forehead, tracing paths through the flour dust, but her focus remained absolute, every movement economical, every dish a race against time. The metallic tang of scorched oil mingled with garlic and thyme, a constant aroma of the escalating rush.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_kit_3",
+      "domain": "kitchen_fire",
+      "model": "gemini-2.5-flash",
+      "text": "The kitchen was a relentless inferno. Heat radiated off every steel surface \u2013 the towering ovens, the sizzling flattop, the bubbling fryers. Sweat plastered his chef\u2019s whites to his back, stinging his eyes as he leaned over the pass. A constant clang and hiss filled the air, the symphony of dinner rush. His hands moved with practiced precision, scooping creamy risotto onto a warmed plate, his spatula scraping clean the pan. He spun, grabbing a skillet, tossing saut\u00e9ed green beans into the air before plating them alongside a perfectly seared salmon. Grease splattered his forearms. He wiped a stray dollop of sauce from the rim of a dish with a quick swipe of a towel, then slid it onto the awaiting shelf. Orders streamed in, tickets piling up, each demanding instant attention. He pivoted, his eyes scanning the chaos, already reaching for the next ingredient, the next pan. The pace never faltered, a relentless, physical ballet of fire and metal and food.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 0,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_kit_4",
+      "domain": "kitchen_fire",
+      "model": "gemini-2.5-flash",
+      "text": "The dinner rush hit like a physical wave. He felt the intense heat radiating from the grill before the first order even printed. Sweat beaded on his forehead, stinging slightly as it threatened his eyes. Pans hissed on the stovetop, a symphony of sizzling oil and browning meat. His hands moved with practiced speed, a blur of motion as he chopped onions, then tossed peppers into a wok. The clang of metal on metal was constant \u2013 pots hitting the sink, tongs grabbing steak, plates stacking. He wiped a hand across his brow, leaving a streak of flour. Steam rose from a pot of boiling pasta, fogging the air already thick with the smell of garlic and searing beef. The fryer bubbled aggressively. He spun, grabbing a fresh plate, swiftly garnishing a dish with parsley before pushing it toward the pass. Orders stacked up, a relentless white avalanche. His concentration was absolute, every movement precise, every second accounted for. The adrenaline surged, a constant companion in the roaring inferno of the kitchen. He scooped a rich sauce, swirling it artfully. Another plate, another urgent call from the expediter. The pace was brutal, but his rhythm remained unwavering amidst the controlled chaos.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 0,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bat_1",
+      "domain": "battlefield_surgery",
+      "model": "gemini-2.5-flash",
+      "text": "Dr. Vance\u2019s hands moved with practiced speed, despite the tremors of distant artillery. A young recruit lay before her, his leg a shredded ruin of flesh and splintered bone, ripped by shrapnel. The air, thick with dust and the metallic tang of blood, offered little respite. She reached for the forceps, their polished steel glinting dully in the tent\u2019s meager light, and began probing the raw cavity, seeking the jagged metal shards. A grunt escaped the soldier's lips as the cold steel brushed against exposed nerves. Her brow, slick with sweat, furrowed in concentration. Next, the scalpel, its razor edge carefully excising dead tissue, a meticulous dance of precision amidst chaos. She then grasped the heavy bone saw, a grim necessity, the rough sound of it grating an unbearable counterpoint to the distant screams. Finally, with sterile needle and gut string, she began the slow, methodical process of closing the ragged wound, drawing torn skin together with firm, deliberate stitches. Her gaze, though weary, held an unwavering focus, already assessing the next stretcher.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 6,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bat_2",
+      "domain": "battlefield_surgery",
+      "model": "gemini-2.5-flash",
+      "text": "Dr. Alistair Finch\u2019s hands, though stained and weary, moved with grim precision. Beneath a torn canvas fly, on a rough-hewn table, another soldier lay groaning softly, a jagged wound ripping through his thigh. Shrapnel had torn muscle and exposed bone, dark blood pulsing rhythmically. Alistair reached for his forceps, the metal cool and slick in his gloved fingers. He probed gently, his brow furrowed, extracting a bent, blackened shard of metal with a soft click. He then uncapped a bottle of crude antiseptic, its stinging smell briefly dominating the stench of mud and sweat. A clean rag, quickly soaked, pressed against the raw flesh. Next, he selected a curved needle threaded with thick catgut. Each stitch was a deliberate act, pulling the torn edges of muscle and skin together, his strong fingers guiding the needle through resistant tissue. The soldier flinched, biting down hard. Finally, he bound the limb tightly with a fresh, albeit mud-splashed, linen bandage. The dull thud of distant artillery served as a constant reminder, and already, two more stretcher-bearers were approaching, their burden another twisted, bleeding form.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 7,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bat_3",
+      "domain": "battlefield_surgery",
+      "model": "gemini-2.5-flash",
+      "text": "The makeshift tent flapped violently, a thin canvas barrier against the chaos. Dr. Alistair Finch worked by the flickering lantern light, his face grimed with sweat and powder. A young corporal lay before him, his leg a pulpy ruin from a shrapnel burst. Alistair's hands, though calloused, moved with surprising dexterity. He grabbed the bone saw. Its serrated edge bit into flesh and splintered bone, a sickening crunch echoing in the cramped space. Blood welled, dark and viscous, staining his worn apron. Next, a rifleman, gut-shot. Alistair plunged sterilized forceps into the gaping wound, searching for the lodged lead. His brow furrowed with intense concentration, beads of sweat dripping from his temple onto the man's chest. The metallic clang of instruments against the muddy ground punctuated the distant rumble of cannon fire. He retrieved a jagged piece of bullet, then began the painstaking work of stitching. Coarse thread pulled taut through torn muscle, each precise movement a desperate attempt to staunch the life-flow. A stack of blood-soaked rags grew beside him. Alistair moved on, his gaze already assessing the next casualty awaiting his grim expertise. The smell of blood, antiseptic, and fear hung heavy.",
+      "orphaned": 1,
+      "earned": 0,
+      "literal_filtered": 9,
+      "orphan_details": [
+        {
+          "word": "bit",
+          "score": 0.7363636363636363,
+          "fields": [
+            "consumption"
+          ],
+          "sentence": "Its serrated edge bit into flesh and splintered bone, a sickening crunch echoing in the cramped space."
+        }
+      ],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bat_4",
+      "domain": "battlefield_surgery",
+      "model": "gemini-2.5-flash",
+      "text": "Dr. Alistair Finch worked under the flickering lantern light of the makeshift tent, the ground vibrating with distant cannon fire. His hands, though caked with blood and grime, moved with practiced efficiency over the crude operating table. A young private lay before him, his thigh ripped open by a bullet, bone shards glistening amidst the torn muscle. Alistair grasped the curved scalpel, making a swift, deep incision to expose the damaged tissue. Blood welled, but his probe swiftly navigated the wound, locating the embedded lead. With long forceps, he extracted the misshapen slug, dropping it with a dull clink into a basin of bloody water. Next, he picked up a gleaming silver needle, its dark thread already prepared. His fingers, calloused and strong, began the painstaking work of stitching gaping flesh back together, the taut thread pulling the ragged edges closed. Sweat beaded on his forehead, mingling with the soot that streaked his temple, but his gaze remained fixed, unwavering. The groans of the next patient already reached his ears, a constant, grim reminder of the endless work ahead.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 8,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bla_1",
+      "domain": "blacksmith",
+      "model": "gemini-2.5-flash",
+      "text": "The forge roared in the dim workshop, casting dancing orange light across the stone walls. Heat radiated, thick and palpable, as old Elias watched the steel bar nestled within the coals. He waited, sweat beading on his brow despite the cool evening air outside. Slowly, the metal began to glow, first cherry red, then a brilliant, searing yellow-white, ready for the hammer. With a practiced grip, he lifted the long tongs, plucking the incandescent steel from the fiery maw. It sizzled faintly as it met the cool air, leaving a shimmering trail of heat. He laid the glowing billet squarely on the anvil's face, the impact a dull thud. His heavy hammer rose and fell in a rhythmic cadence, ringing sharply through the workshop. Each powerful blow sent a spray of brilliant orange sparks scattering across the floor, illuminating dust motes in the air. The raw steel flattened and stretched under the relentless force, its shape slowly transforming. He worked quickly, knowing the heat would fade. The rough profile of a blade began to emerge, lengthening and thinning with every precise strike. As the metal cooled to a dull red, he returned it to the hungry fire, preparing for the next round of shaping.",
+      "orphaned": 0,
+      "earned": 2,
+      "literal_filtered": 8,
+      "orphan_details": [],
+      "earned_details": [
+        {
+          "word": "grip",
+          "score": 0.3666666666666667,
+          "fields": [
+            "body"
+          ]
+        },
+        {
+          "word": "hungry",
+          "score": 0.3666666666666667,
+          "fields": [
+            "consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_bla_2",
+      "domain": "blacksmith",
+      "model": "gemini-2.5-flash",
+      "text": "The bellows hissed, feeding the coals of the forge until they pulsed with an infernal orange glow. Old Elias, his face streaked with soot and sweat, lifted a pair of tongs, their long arms gripping a dull, dark bar of steel. He plunged it into the heart of the fire. Minutes crawled by, marked only by the roar of the flames and the rhythmic pump of his foot. Slowly, the steel bar transformed, its edges softening, then blushing to a cherry red, and finally gleaming with an incandescent yellow-white, almost too bright to look at directly. With a grunt, Elias drew the glowing metal from the coals. It dripped molten light as he quickly laid it across the scarred surface of the anvil. The air shimmered above the superheated steel. His hammer, a heavy, well-worn tool, rose and fell with practiced precision. *Clang!* The workshop echoed. Sparks showered, tiny constellations bursting from each impact as the soft, yielding metal stretched and flattened. The metallic scent of ozone filled the air. He rotated the piece, hammering one side, then the other, urging the stubborn material into a nascent blade shape. Back into the fire it went, only to emerge moments later for another furious round of reshaping, the rhythmic *clang* a heartbeat against the forge's roar, slowly drawing out the raw material into something sharp and deadly.",
+      "orphaned": 1,
+      "earned": 2,
+      "literal_filtered": 4,
+      "orphan_details": [
+        {
+          "word": "stubborn",
+          "score": 0.6606060606060606,
+          "fields": [
+            "personification"
+          ],
+          "sentence": "He rotated the piece, hammering one side, then the other, urging the stubborn material into a nascent blade shape."
+        }
+      ],
+      "earned_details": [
+        {
+          "word": "roar",
+          "score": 0.5,
+          "fields": [
+            "water_weather"
+          ]
+        },
+        {
+          "word": "roar",
+          "score": 0.5,
+          "fields": [
+            "water_weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini_bla_3",
+      "domain": "blacksmith",
+      "model": "gemini-2.5-flash",
+      "text": "The forge roared, a hungry beast devouring coal, its fiery heart casting dancing shadows across the soot-stained smithy walls. Kael gripped the raw steel blank with heavy tongs, his calloused hands steady despite the radiating heat. He plunged it into the inferno, watching the dull grey metal slowly blush, then deepen to a vivid cherry red, and finally, a molten yellow-orange that pulsed with its own intense light. With a practiced swing, he withdrew the glowing billet, its heat shimmering. The stout oak handle of his hammer felt warm in his grip. The anvil, scarred from countless blows, rang out with a deafening *CLANG* as the hammer descended, a rhythmic echo filling the workshop. Sparks, like tiny, angry stars, flew with each impact, showering the packed earth floor. Under his relentless will, the metal stretched and thinned, the blunt edges flattening, growing longer with every deliberate strike. He turned the steel, heated it again, then resumed the rhythmic shaping, the blade slowly emerging from the brute material beneath his powerful, precise blows.",
+      "orphaned": 3,
+      "earned": 0,
+      "literal_filtered": 4,
+      "orphan_details": [
+        {
+          "word": "hungry",
+          "score": 0.6914529914529913,
+          "fields": [
+            "consumption"
+          ],
+          "sentence": "The forge roared, a hungry beast devouring coal, its fiery heart casting dancing shadows across the soot-stained smithy "
+        },
+        {
+          "word": "grip",
+          "score": 1.0,
+          "fields": [
+            "body"
+          ],
+          "sentence": "The stout oak handle of his hammer felt warm in his grip."
+        },
+        {
+          "word": "angry",
+          "score": 0.7333333333333334,
+          "fields": [
+            "personification"
+          ],
+          "sentence": "Sparks, like tiny, angry stars, flew with each impact, showering the packed earth floor."
+        }
+      ],
+      "earned_details": []
+    },
+    {
+      "id": "gemini_bla_4",
+      "domain": "blacksmith",
+      "model": "gemini-2.5-flash",
+      "text": "The air in the smithy was thick with the smell of coal smoke and hot metal. Old Kaelen stood before the roaring forge, its mouth a gaping maw of orange light. He grasped a bar of high-carbon steel with heavy tongs, its surface dull and grey, and thrust it deep into the heart of the coals. The bellows hissed, fanning the flames to an even more furious intensity. Kaelen watched, a grim focus etched on his face, as the steel slowly began to blush, then glow cherry red, eventually reaching a brilliant yellow-white. With a grunt, he pulled the incandescent metal from the fire, the heat radiating intensely even from a distance. He swiftly laid the molten-bright bar onto the scarred face of his anvil. The heavy hammer, its head worn smooth by countless blows, rose and fell with rhythmic power. Each strike sent a shower of orange sparks spiraling into the dimness, the ringing clang echoing sharply. The steel flattened, stretched, and began to elongate under the precise, powerful impacts. He turned the metal, striking again and again, the raw bar slowly yielding, transforming, shedding its rough edges. The air vibrated with the force of his labor. Back into the fire it went, then out again, the cycle repeating, each pass bringing the nascent blade closer to its destined form. Sweat beaded on his brow, catching the light from the forge.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 7,
+      "orphan_details": [],
+      "earned_details": []
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "haiku": {
+    "model_id": "claude-haiku-4-5-20251001",
+    "n_passages": 20,
+    "total_orphaned": 8,
+    "total_earned": 6,
+    "passages_with_orphan": 7,
+    "orphan_rate": 0.4,
+    "passage_flag_rate": 0.35,
+    "passages": [
+      {
+        "id": "haiku_oce_1",
+        "domain": "ocean_storm",
+        "model": "haiku",
+        "text": "# Storm at Sea\n\nThe fishing vessel pitched violently as mountainous waves crashed across its bow. Captain Morrison gripped the wheel with white knuckles, fighting to keep the boat's nose pointed into the churning swells. Salt spray stung the faces of the three crew members as they scrambled across the pitching deck, their rubber boots slipping against the slick planks.\n\nThe ocean had transformed into a writhing beast of grey-green water. Waves towered twenty feet high, their crests frothing white before collapsing onto the wheelhouse with thunderous force. The boat groaned and shuddered with each impact, timbers creaking ominously.\n\nMarcus secured loose equipment with fraying rope while his hands trembled from exertion and cold. The engine's roar competed with the shrieking wind that tore at their rain gear. Water cascaded across the deck in torrents, draining through scuppers as the vessel rose and fell in sickening rhythm.\n\nAbove them, the sky churned black and violent, split occasionally by jagged lightning. The horizon had disappeared entirely, replaced by an endless chaos of water and wind. Every man aboard understood they were insignificant against this raw power of nature, clinging to their small vessel like insects on a leaf.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 1,
+        "orphan_details": [
+          {
+            "word": "roar",
+            "score": 0.7333333333333334,
+            "fields": [
+              "water_weather"
+            ],
+            "sentence": "The engine's roar competed with the shrieking wind that tore at their rain gear."
+          }
+        ]
+      },
+      {
+        "id": "haiku_oce_2",
+        "domain": "ocean_storm",
+        "model": "haiku",
+        "text": "# Storm at Sea\n\nThe fishing vessel pitched violently as mountainous waves crashed across the bow. Salt spray stung Marcus's face while he gripped the railing, his knuckles white against the worn metal. Above, the sky had turned a sickly green-gray, and the wind howled like something alive and furious.\n\nThe other crew members moved with practiced urgency, their movements exaggerated by the boat's erratic motion. One man secured loose equipment with fraying rope while another checked the engine room below deck. The boat's wooden frame groaned and creaked, straining against the relentless assault of the sea.\n\nWater sloshed across the deck in sheets, knee-high at times, before draining through the scuppers. Marcus's boots were soaked through, his jacket plastered to his body. The horizon disappeared entirely, replaced by a churning chaos of gray and black water that seemed determined to swallow them whole.\n\nThe captain stood at the helm, jaw clenched, one hand steady on the wheel as he fought to keep the bow pointed into the waves. Every muscle in his weathered face tensed with concentration. Minutes stretched like hours as the storm raged on, and the small vessel continued its desperate battle against the indifferent ocean.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 2,
+        "orphan_details": [
+          {
+            "word": "swallow",
+            "score": 0.6666666666666666,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "The horizon disappeared entirely, replaced by a churning chaos of gray and black water that seemed d"
+          }
+        ]
+      },
+      {
+        "id": "haiku_oce_3",
+        "domain": "ocean_storm",
+        "model": "haiku",
+        "text": "# The Storm\n\nThe fishing vessel pitched violently as waves crashed over the bow. Marcus gripped the salt-slicked railing, his knuckles white against the weathered wood. The ocean had transformed into a writhing mass of gray-green water, each swell towering three stories high before collapsing onto the deck with tremendous force.\n\nThe crew moved in practiced synchronization despite the chaos. One man secured loose nets while another checked the engine room below. Rain hammered the windshield as the captain fought the wheel, muscles straining against the wheel's resistance. Saltwater stung their faces and soaked through their heavy rubber suits.\n\nThe boat groaned beneath them, timbers creaking ominously. Ropes snapped taut, then loosened as the vessel dropped into troughs between waves. A cooler slid across the deck, crashing against the cabin wall. The engine roared, struggling to maintain course against the current.\n\nMarcus felt his stomach lurch with each precipitous rise and sickening plunge. The horizon disappeared, replaced entirely by churning water and darkening sky. Hours stretched like days as the storm continued its assault, testing both vessel and crew.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 4,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_oce_4",
+        "domain": "ocean_storm",
+        "model": "haiku",
+        "text": "# Storm at Sea\n\nThe fishing vessel pitched violently as towering waves crashed across the bow. Marcus gripped the weathered railing, his knuckles white against the splintered wood. Salt spray stung his face while the deck bucked beneath his boots like a living thing.\n\nAbove, the sky had turned an sickly greenish-black. Rain hammered down in sheets, reducing visibility to mere meters. The rigging shrieked in the wind, ropes whipping frantically against the mast.\n\nBelow deck, the crew worked frantically to secure loose cargo. Crates slid across the tilting floor as the boat heaved and groaned, its wooden frame flexing under the assault. Water sloshed through the companionway, cold and dark.\n\nOn the bridge, the captain's face remained fixed on the horizon, his weathered hands steady on the wheel despite the bucking motion. His crew members braced themselves against walls and railings, moving with practiced efficiency despite the chaos.\n\nThe engine rumbled as the vessel climbed another mountainous swell. For a breathless moment, Marcus could see nothing but sky. Then the boat plunged downward, and the ocean roared around them once more.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 2,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_saw_1",
+        "domain": "sawmill",
+        "model": "haiku",
+        "text": "# A Day at the Mill\n\nThe sawyer gripped the wooden handles as the circular blade whirred to life, its teeth spinning at a blur. Dust erupted in thick clouds, coating his shirt and lodging in his nostrils. He fed the log forward, feeling the powerful pull of the machinery, and watched as the sharp blade bit through the grain with a piercing shriek.\n\nThe raw wood smelled sweet and tangy. Pine chips flew across his work station, catching in his hair and beard. His arms ached from guiding the heavy timber through the mill's hungry mouth. The floor beneath his boots was slick with sawdust and moisture, slippery from hours of work.\n\nBetween cuts, he stacked the fresh planks on the cart beside him, their surfaces still warm from friction. The wood was soft enough to leave finger marks, pale and splintering at the edges. The constant thunder of machinery filled his ears, a relentless rhythm that made thinking difficult.\n\nWhen the shift finally ended, he wiped his brow, leaving a streak of grime across his forehead. His clothes were soaked through with sweat and wood dust, his hands calloused and blistered.",
+        "orphaned": 1,
+        "earned": 1,
+        "literal_filtered": 4,
+        "orphan_details": [
+          {
+            "word": "hungry",
+            "score": 0.687037037037037,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "His arms ached from guiding the heavy timber through the mill's hungry mouth."
+          }
+        ]
+      },
+      {
+        "id": "haiku_saw_2",
+        "domain": "sawmill",
+        "model": "haiku",
+        "text": "# A Day at the Mill\n\nThe sawmill's great blade shrieked as it bit into the log, sending cascades of golden dust into the humid air. Marcus fed the timber forward, his gloved hands steady against the rough bark. Sweat darkened his shirt despite the early hour.\n\nThe circular saw spun at tremendous speed, its teeth flashing in the morning light. Each plank that emerged was hot to the touch, freshly cut wood still warm from friction. Marcus guided the next log onto the carriage, aligning it precisely before pulling the lever that locked it in place.\n\nAround him, the mill thundered. The conveyor belt rattled ceaselessly, carrying finished boards toward the stacking area. Sawdust coated every surface\u2014his boots, his hair, settling thick on the concrete floor. The smell was overwhelming: fresh pine sap and hot metal.\n\nMarcus's arms ached from ten hours of repetitive motions. His safety glasses fogged with perspiration. The deafening roar of machinery never ceased, vibrating through his bones. When the lunch whistle finally blew, he gratefully stepped away from the relentless saw, peeling off his work gloves and breathing in the cleaner air.",
+        "orphaned": 2,
+        "earned": 0,
+        "literal_filtered": 3,
+        "orphan_details": [
+          {
+            "word": "bit",
+            "score": 0.6523809523809524,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "# A Day at the Mill\n\nThe sawmill's great blade shrieked as it bit into the log, sending cascades of "
+          },
+          {
+            "word": "roar",
+            "score": 0.9047619047619048,
+            "fields": [
+              "water_weather"
+            ],
+            "sentence": "The deafening roar of machinery never ceased, vibrating through his bones."
+          }
+        ]
+      },
+      {
+        "id": "haiku_saw_3",
+        "domain": "sawmill",
+        "model": "haiku",
+        "text": "# A Day at the Mill\n\nThe sawmill roared to life as Marcus arrived before dawn. His boots crunched across the scattered wood chips covering the floor, layers of pale shavings that caught the weak morning light. He moved toward the circular saw, its blade a gleaming silver disk waiting to bite into timber.\n\nThe first log rolled down the chute, a massive pine trunk still bleeding sap. Marcus positioned it carefully against the guide rails, his calloused hands gripping the worn wood of the control lever. When he pulled it down, the blade shrieked to life, spraying a fountain of golden dust that hung in the humid air like fog.\n\nThe machinery thundered around him\u2014the whine of the blade, the mechanical groaning of the conveyor belt, the rhythmic thud of freshly cut boards dropping onto the sorting platform. His shirt darkened with sweat as he worked through the morning, feeding log after log into the hungry saw. Sawdust coated his hair, his skin, settling into the creases of his weathered face. By noon, the pile of finished lumber had grown substantially, each piece perfectly squared and uniform.",
+        "orphaned": 1,
+        "earned": 1,
+        "literal_filtered": 4,
+        "orphan_details": [
+          {
+            "word": "bite",
+            "score": 0.8181818181818182,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "He moved toward the circular saw, its blade a gleaming silver disk waiting to bite into timber."
+          }
+        ]
+      },
+      {
+        "id": "haiku_saw_4",
+        "domain": "sawmill",
+        "model": "haiku",
+        "text": "# A Day at the Mill\n\nThe massive circular saw spun faster than the eye could follow, its blade catching the morning light. Daniel fed the rough timber into the machine with practiced hands, pushing the log forward against the blade's hungry teeth. Sawdust erupted in a golden cloud, coating his clothes and settling into the creases of his skin.\n\nThe smell of fresh-cut pine filled the air\u2014sharp and resinous. He guided each plank through the secondary saw, its whine cutting through the constant mechanical drone. His shoulders ached from the repetitive motions, the same push-pull-guide rhythm he'd performed for seventeen years.\n\nSteam rose from the debarking station where heated water stripped away the rough exterior. The stripped logs, pale and glistening, moved along the conveyor belt toward Daniel's station. He positioned each one carefully, watching the blade slice through the wood with satisfying precision.\n\nBy noon, his work gloves were soaked with sweat and sticky resin. Piles of cut lumber accumulated behind him, stacked neatly by the automated sorter. Daniel wiped his brow, breathing deeply the wood-laden air he'd come to know as thoroughly as his own heartbeat.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 4,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_kit_1",
+        "domain": "kitchen_fire",
+        "model": "haiku",
+        "text": "# The Dinner Rush\n\nMarcus wiped sweat from his forehead with the back of his hand, leaving a smear of flour across his skin. The kitchen blazed with heat from six burners running simultaneously, flames licking up the sides of cast-iron pans. Tickets streamed endlessly from the printer, curling onto the steel counter like urgent telegrams.\n\nHe moved between stations with practiced precision, his chef's whites already soaked through at the armpits. His forearms glistened as he gripped the handles of heavy saucepans, muscles flexing with each violent shake over the open flame. The ventilation hood roared overhead, barely keeping pace with the rising heat and billowing steam.\n\nOn his left, the saut\u00e9 station sizzled and popped. On his right, the grill marks seared perfect diagonal lines across protein. Marcus's hands operated on instinct\u2014plating, seasoning, wiping rims clean with a cloth. His knife struck the cutting board in rapid rhythm, dicing aromatics into uniform pieces.\n\nThe kitchen erupted in organized chaos. Tickets multiplied. The pass filled with completed dishes. Marcus's chest heaved as he pushed through the final orders, the dinner rush showing no mercy.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 1,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_kit_2",
+        "domain": "kitchen_fire",
+        "model": "haiku",
+        "text": "# Dinner Rush\n\nThe kitchen erupted into controlled chaos as the tickets began streaming in. Marcus wiped sweat from his forehead with the back of his hand, his chef's whites already darkened with moisture. The heat from the open flames and griddles pressed against his skin like a living thing, making each breath feel heavy.\n\nHe moved between stations with practiced efficiency, his fingers dancing across the hot line. Pans clattered as he flipped fish fillets, the sizzle of butter and garlic filling the air. Grease splattered across his forearms, but he barely noticed. His eyes remained fixed on the window where tickets accumulated like snow.\n\nThe exhaust hood roared above him, struggling against the heat rising from six burners running simultaneously. Marcus grabbed a plate from the warmer, its edges almost too hot to touch, and began plating the risotto with the precision of muscle memory. Around him, other cooks moved in silent synchronization\u2014a shoulder brush here, a \"behind\" call there\u2014all flowing around each other like water around stones.\n\nThe dinner rush was a trial by fire, and Marcus was exactly where he belonged.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 3,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_kit_3",
+        "domain": "kitchen_fire",
+        "model": "haiku",
+        "text": "# The Dinner Rush\n\nMarcus wiped sweat from his forehead as the kitchen erupted into chaos. The dinner rush had begun, and every burner on the six-foot range blazed simultaneously. Flames shot up from the saut\u00e9 pans, casting dancing shadows across his white chef's coat, now stained with sauce and oil.\n\nHis hands moved with practiced precision, tossing vegetables in a screaming-hot wok while simultaneously plating a fish special. The heat from the open kitchen rolled across his face in waves, turning his skin crimson. Steam rose from boiling pasta water, fogging his glasses.\n\nAround him, three other cooks worked in synchronized urgency. The ticket printer chattered relentlessly, spitting out order after order. Marcus grabbed a hot cast-iron skillet bare-handed using a towel, his forearm muscles burning as he rotated the pan over the flame.\n\nThe walk-in cooler's hinges creaked constantly as cooks rushed in and out, grabbing ingredients. Pots clanged against the metal counter. The dishwasher chugged steadily in the corner, churning through stacks of plates. Through it all, Marcus maintained his focus, plating perfectly even as sweat dripped steadily down his back.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 2,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_kit_4",
+        "domain": "kitchen_fire",
+        "model": "haiku",
+        "text": "# The Dinner Rush\n\nMarcus wiped sweat from his forehead as flames erupted from the saut\u00e9 station. The kitchen had transformed into a furnace, the heat radiating from six burners simultaneously. Orders hung from the ticket machine in an endless stream, each one demanding his immediate attention.\n\nHis hands moved with practiced efficiency, muscle memory guiding him through the chaos. He grabbed a hot pan with a towel, tilted it at a precise angle, and sent oil cascading across the steel surface. Vegetables hit the heat with a violent sizzle. The noise was deafening\u2014clattering pans, the roar of the ventilation hood, the urgent calls of fellow cooks coordinating their stations.\n\nSweat dripped onto his chef's whites as he plated three entr\u00e9es simultaneously. The expediter called out times, his voice cutting through the din. Marcus's forearms burned from the heat and exertion, but he didn't slow down. The prep station beside him overflowed with mise en place containers. He reached for them constantly, his rhythm never breaking.\n\nThe clock showed 8:47 p.m. Three more hours remained until closing. Marcus set another pan on the flame and pressed forward.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 1,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bat_1",
+        "domain": "battlefield_surgery",
+        "model": "haiku",
+        "text": "# Field Surgery\n\nThe surgeon's hands trembled as he bent over the soldier's shattered leg. Blood pooled beneath the operating table\u2014a door laid across two crates\u2014and dripped onto the dirt floor of the makeshift tent. Outside, artillery thundered relentlessly.\n\nHe reached for the bone saw, its blade already dulled from a dozen amputations that morning. The wounded man's eyes rolled back as the surgeon applied the tourniquet, twisting it until the screaming stopped. The saw bit through tissue and bone with wet, grinding sounds. Sweat dripped from the surgeon's forehead onto his blood-stained apron.\n\nWith practiced efficiency, he cauterized the stump using a heated iron, the acrid smell of burning flesh mixing with smoke and antiseptic. His assistant\u2014a young orderly who'd fainted twice already\u2014held the lantern steady.\n\nThe surgeon wrapped the amputation stump in lint and gauze, his fingers moving automatically despite exhaustion. Already another orderly was dragging in the next casualty, a boy with a sucking chest wound.\n\nThe surgeon didn't pause. He simply moved to the next table, picking up fresh instruments from the boiling water.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 5,
+        "orphan_details": [
+          {
+            "word": "bit",
+            "score": 0.8229166666666666,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "The saw bit through tissue and bone with wet, grinding sounds."
+          }
+        ]
+      },
+      {
+        "id": "haiku_bat_2",
+        "domain": "battlefield_surgery",
+        "model": "haiku",
+        "text": "# Field Surgery\n\nThe surgeon's hands trembled as he set down his saw, blood dripping from the serrated blade onto the canvas floor. Outside the tent, artillery thundered across the valley. Another soldier lay sprawled on the wooden table before him, his left leg shattered below the knee from shrapnel.\n\nHe reached for a tourniquet and cinched it high on the thigh, the leather strap cutting deep into flesh already pale from blood loss. The man's body convulsed, but morphine had dulled his screams to whimpers. Using forceps, the surgeon probed the wound, removing fragments of bone and cloth embedded in tissue. Pus and blood pooled around the injury.\n\nHe selected his amputation saw from the metal tray, its teeth still dark from previous operations. The bone gave way with resistance, then a sickening snap. His assistant pressed gauze against the stump while the surgeon ligated vessels with silk thread, his needle work steady despite the percussion of distant shells.\n\nThe wound dressed, he glanced at the next patient waiting outside. His apron hung stiff with dried blood, his fingers ached, but there were always more.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 10,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bat_3",
+        "domain": "battlefield_surgery",
+        "model": "haiku",
+        "text": "# In the Field\n\nThe surgeon's hands trembled as he leaned over the young soldier, whose left leg ended abruptly below the knee. Blood pooled across the canvas stretcher, soaking through the worn fabric. He reached for the bone saw, its metal teeth catching the weak sunlight filtering through the tent.\n\nThe acrid smell of gunpowder mixed with chloroform as he worked methodically. His fingers, slick with blood, located the femoral artery and tied it off with practiced efficiency. Around him, other wounded lay in various states of distress\u2014a man with a shattered shoulder, another with a gaping chest wound that wheezed with each labored breath.\n\nThe surgeon's apron, once white, was now a map of stains. He threaded the needle with steady fingers despite the constant percussion of artillery outside. The soldier's skin was pale, almost translucent, drained of life.\n\nWhen he finished wrapping the stump in clean linen, the surgeon stepped back. This one might survive. He turned immediately to the next stretcher, already reaching for fresh instruments. There was no time for reflection\u2014only the endless succession of broken bodies requiring his attention.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 5,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bat_4",
+        "domain": "battlefield_surgery",
+        "model": "haiku",
+        "text": "# In the Field\n\nThe surgeon's hands trembled as another stretcher arrived, the soldier's leg mangled below the knee. He set down his forceps and assessed the damage\u2014bone fragments protruding through blackened flesh, the stench of gangrene already creeping in. There was no time for hesitation.\n\nHe reached for the bone saw, its teeth still crusted with blood from the previous amputation. The blade bit through tissue with a sickening rasp while the soldier writhed against the leather restraints. The surgeon worked methodically, his fingers stained dark crimson, sweat dripping onto the surgical field.\n\nAround him, the medical tent churned with organized chaos. Orderlies rushed between stations carrying basins of water turned pink, cotton wadding soaked through. The air hung thick with chloroform and copper-scented blood.\n\nOnce the limb fell away, he cauterized the stump with practiced efficiency, applying pressure to seal the arteries. His assistant wrapped the wound in lint while the surgeon was already turning toward the next patient\u2014a chest wound, a shattered arm, a soldier with eyes already glazed with shock. The work was relentless, mechanical. There was only the wound, the instrument, and the desperate race against death.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 7,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bla_1",
+        "domain": "blacksmith",
+        "model": "haiku",
+        "text": "# The Blade\n\nThe blacksmith's hammer struck with rhythmic precision, sending sparks cascading across the darkened workshop. Heat radiated from the forge in shimmering waves, turning the iron blade from dull red to brilliant orange.\n\nMarcus gripped the tongs firmly, rotating the metal to expose each surface to the flames. His muscular forearms glistened with sweat as he worked the bellows, coaxing the fire hotter. The roar of the forge filled the small stone building, drowning out the sounds of the village beyond.\n\nWhen the blade glowed with perfect amber light, he withdrew it from the heat. The metal sang as it left the forge, a high-pitched whistle fading into silence. Without hesitation, he plunged it into the quenching barrel. Steam exploded upward in a violent cloud, enveloping his face.\n\nThe water hissed and boiled around the blade as he worked it back and forth with the tongs. His experienced eye tracked the color changes as the metal cooled\u2014orange fading to purple, then to grey.\n\nFinally, he withdrew the finished blade and examined it. The surface gleamed dully, tempered and true. Hours of labor had transformed raw iron into something beautiful and deadly.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 5,
+        "orphan_details": [
+          {
+            "word": "roar",
+            "score": 0.7333333333333334,
+            "fields": [
+              "water_weather"
+            ],
+            "sentence": "The roar of the forge filled the small stone building, drowning out the sounds of the village beyond"
+          }
+        ]
+      },
+      {
+        "id": "haiku_bla_2",
+        "domain": "blacksmith",
+        "model": "haiku",
+        "text": "# The Forge\n\nThe blacksmith stood before the roaring furnace, sweat streaming down his weathered face. Flames danced in brilliant oranges and yellows, casting flickering shadows across the stone walls. He withdrew the glowing metal from the heat, its surface shimmering like molten honey.\n\nHe positioned the blade on the anvil, a massive slab of black iron worn smooth by countless hours of work. His hammer rose and fell in a rhythmic dance, each strike sending sparks cascading across the workshop floor. The metal rang out with each contact, a clear, resonant song that echoed through the building.\n\nThe blade gradually took shape beneath his expert hands. He reheated it periodically, returning it to the forge's intense embrace whenever the color dulled from cherry red. His muscles burned with exertion, but his movements remained precise and controlled.\n\nFinally, he plunged the finished blade into a bucket of water. Steam erupted upward in a violent hiss, momentarily obscuring the blade from view. When the mist cleared, he held up his creation\u2014a sleek, balanced weapon with a subtle curve along its edge. It was ready.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 4,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bla_3",
+        "domain": "blacksmith",
+        "model": "haiku",
+        "text": "# The Forging\n\nThe blacksmith gripped his hammer with calloused fingers, eyes fixed on the glowing metal in the forge. Heat radiated across his weathered face as orange flames licked upward, turning the steel the color of fresh blood. Sweat dripped down his temples.\n\nHe withdrew the blade with iron tongs, the metal singing softly as it left the fire. The steel glowed like a sunset\u2014brilliant, unstable, alive. He positioned it on the anvil's worn surface, its top scarred from countless strikes.\n\nThe hammer rose and fell in rhythmic arcs. Each blow sent sparks cascading outward like burning snow. The metal rang beneath his blows, high and clear, responding to his will. With each strike, the blade took shape\u2014thinner, sharper, stronger. The smith's muscles burned with exertion.\n\nSteam hissed as he plunged the blade into water, the sudden violence transforming steel from malleable to hard. The blade's color shifted to midnight blue and silver. He lifted it, examining the edge he'd created from raw ore and fire. The blade was ready.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 8,
+        "orphan_details": []
+      },
+      {
+        "id": "haiku_bla_4",
+        "domain": "blacksmith",
+        "model": "haiku",
+        "text": "# The Blacksmith's Work\n\nThe forge glowed crimson as Marcus pulled the iron from its depths. Sparks scattered across the stone floor like fireflies, hissing against dampened earth. He gripped the tongs firmly, positioning the glowing metal on the anvil's scarred surface.\n\nHis hammer rose and fell in rhythmic strikes, each blow sending tremors through his weathered shoulders. The metal yielded under the force, gradually taking shape\u2014a blade emerging from formless fire. Sweat beaded on his brow and dripped onto the stone, sizzling where it landed near the forge.\n\nMarcus paused to examine his work, rotating the blade to inspect its edge. The metal glowed pale yellow now, malleable but cooling. He returned it to the forge's hungry flames, watching as orange consumed the steel once more.\n\nWhen he withdrew it again, the blade sang as his hammer struck. Layer by layer, he folded the metal, strengthening its structure. Finally, he plunged the blade into water. Steam erupted in a violent hiss, enveloping him in scalding mist. The metal screamed its submission.\n\nMarcus held the finished blade aloft, studying how light danced across its perfect surface.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 7,
+        "orphan_details": []
+      }
+    ]
+  },
+  "sonnet": {
+    "model_id": "claude-sonnet-4-20250514",
+    "n_passages": 20,
+    "total_orphaned": 4,
+    "total_earned": 4,
+    "passages_with_orphan": 3,
+    "orphan_rate": 0.2,
+    "passage_flag_rate": 0.15,
+    "passages": [
+      {
+        "id": "sonnet_oce_1",
+        "domain": "ocean_storm",
+        "model": "sonnet",
+        "text": "The thirty-foot vessel lurched violently as twenty-foot swells crashed over the bow, sending torrents of icy seawater across the deck. Captain Morrison gripped the wheel with white knuckles, his weathered hands fighting against the rudder as it bucked like an angry horse. The engine groaned beneath them, struggling to maintain power against the relentless waves that seemed to rise from every direction.\n\nRodriguez and Chen scrambled across the slippery deck, their yellow rain gear plastered against their bodies by the driving wind. They secured loose equipment with practiced efficiency, their boots sliding on the foam-slicked planks as the boat pitched forty degrees to starboard. The radio crackled with static and distorted voices from other vessels battling the same fury.\n\nAnother massive wave towered above the wheelhouse, its dark green face streaked with foam. Morrison throttled up, climbing the liquid mountain as the boat's hull shuddered and strained. At the crest, they hung suspended for a terrifying moment before plunging down the backside into the trough, the propeller spinning wildly in the churning air and water.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 1,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_oce_2",
+        "domain": "ocean_storm",
+        "model": "sonnet",
+        "text": "The thirty-foot charter boat pitched violently as another massive wave crashed over its bow, sending torrents of seawater cascading across the slippery deck. Marcus gripped the rail with white knuckles while the vessel climbed the face of a towering swell, its diesel engine straining against the storm's fury. The captain wrestled with the wheel, his weathered hands fighting to keep them pointed into the oncoming waves.\n\nGray-green water stretched endlessly in every direction, churning like a washing machine filled with foam and debris. The boat's hull groaned under the immense pressure as it plunged into each trough, momentarily weightless before slamming down with bone-jarring force. Salt spray stung Marcus's eyes and filled his mouth with brine.\n\nTwo crew members worked frantically to secure loose equipment that had broken free from its moorings. Coolers slid back and forth across the deck, crashing into the cabin walls with each roll. The radio crackled with static and emergency broadcasts as the small vessel fought its way through the tempest toward the distant harbor.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 2,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_oce_3",
+        "domain": "ocean_storm",
+        "model": "sonnet",
+        "text": "The vessel pitched violently as twenty-foot swells crashed over the bow, sending torrents of seawater cascading across the slippery deck. Captain Rodriguez gripped the wheel with white knuckles while his crew scrambled to secure loose equipment that threatened to slide overboard with each savage roll. The engine groaned against the relentless waves, its diesel fumes mixing with the salt spray that stung everyone's eyes.\n\nMiguel hauled in the nets with desperate efficiency, his waterlogged boots struggling for purchase on the treacherous planking. The boat's hull creaked ominously as it climbed each mountainous wave before plunging into the trough beyond, jarring every man's spine. Lightning illuminated the churning black water in stark, terrifying flashes.\n\nThe radio crackled with distress calls from other vessels caught in the squall. Rodriguez adjusted course toward the harbor, fighting the wheel as wind-driven rain lashed the wheelhouse windows. Each crew member moved with practiced urgency, knowing their survival depended on reaching calm waters before the aging boat succumbed to the ocean's fury.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 1,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_oce_4",
+        "domain": "ocean_storm",
+        "model": "sonnet",
+        "text": "The forty-foot trawler pitched violently as twenty-foot swells crashed over her bow, sending torrents of seawater cascading across the deck. Captain Martinez gripped the wheel with white knuckles, his weathered hands fighting to keep the vessel's nose pointed into the mountainous waves. The engine groaned beneath them, struggling against the relentless pull of the churning ocean.\n\nRodriguez and Santos worked frantically to secure loose equipment, their rain slickers whipping in the howling wind. Every few seconds, the boat would climb the face of another massive wave before plunging down the backside, her hull shuddering from the impact. Green water exploded against the wheelhouse windows, temporarily blinding Martinez before the wipers cleared his view.\n\nThe deck tilted at impossible angles, forcing the crew to crawl on hands and knees, clinging to railings and cleats. Fishing nets broke free from their restraints, sliding dangerously across the slick surface. Below deck, tools and supplies crashed against bulkheads as the storm tossed their vessel like a cork. The radio crackled with distorted emergency broadcasts, barely audible above the wind's deafening roar.",
+        "orphaned": 0,
+        "earned": 1,
+        "literal_filtered": 2,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_saw_1",
+        "domain": "sawmill",
+        "model": "sonnet",
+        "text": "The forklift's engine growled as Marcus maneuvered another load of pine logs toward the headsaw. Sawdust swirled in thick clouds around the blade, settling on his safety glasses and coating his flannel shirt. The massive circular saw screamed through each timber, its teeth biting deep into the resin-soaked wood.\n\nHe guided the carriage forward with practiced precision, his calloused hands steady on the controls despite the vibrations that rattled through the concrete floor. The sweet smell of fresh-cut lumber mixed with diesel fumes and machine oil. Each pass of the blade produced perfectly straight boards that tumbled onto the conveyor belt with hollow thuds.\n\nSweat beaded on Marcus's forehead beneath his hard hat as he worked. The mill's overhead fans pushed humid air through the cavernous space, but offered little relief from the July heat. Wood chips clung to his damp arms as he adjusted the log's position, preparing for the next cut. The rhythmic clank of machinery echoed off the metal walls while sawdust continued to drift down like golden snow.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 3,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_saw_2",
+        "domain": "sawmill",
+        "model": "sonnet",
+        "text": "The blade screamed through another Douglas fir log, sending a cascade of sawdust into the air around Marcus's boots. He guided the massive timber along the metal rails, his calloused hands steady against the rough bark despite the vibration that traveled up through his arms. The circular saw's teeth bit deep, peeling away a two-by-twelve with mechanical precision.\n\nSweat darkened his flannel shirt as he wrestled the next log into position. The sweet scent of fresh-cut pine mixed with diesel fumes from the loader outside. Wood chips clung to his safety glasses, and he paused to wipe them clean with the back of his glove.\n\nThe conveyor belt carried finished boards toward the sorting area, where they clattered into neat piles according to grade. Marcus reached for his measuring tape, checking the thickness of each cut. The mill floor trembled beneath the weight of falling timber as another truck delivered its load. He adjusted his ear protection and stepped back to the controls, ready to feed the hungry blade once more.",
+        "orphaned": 2,
+        "earned": 0,
+        "literal_filtered": 4,
+        "orphan_details": [
+          {
+            "word": "bit",
+            "score": 1.0,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "The circular saw's teeth bit deep, peeling away a two-by-twelve with mechanical precision."
+          },
+          {
+            "word": "hungry",
+            "score": 0.8333333333333334,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "He adjusted his ear protection and stepped back to the controls, ready to feed the hungry blade once"
+          }
+        ]
+      },
+      {
+        "id": "sonnet_saw_3",
+        "domain": "sawmill",
+        "model": "sonnet",
+        "text": "The blade screamed through the oak log, spraying sawdust in golden arcs across Marcus's steel-toed boots. He guided the timber along the metal rails, his calloused hands steady against the rough bark despite the machine's violent vibrations. The air hung thick with wood particles that caught the afternoon light streaming through grimy windows.\n\nSteam rose from the fresh-cut planks as they tumbled onto the conveyor belt, their pale surfaces still bleeding sap. Marcus wiped sweat from his forehead with the back of his flannel sleeve, leaving a streak of resin and dust across his brow. The mill's heartbeat pounded in his chest\u2014the rhythmic thrum of hydraulic arms lifting logs, the shriek of circular saws, the crash of lumber hitting sorting bins.\n\nHis muscles ached from wrestling twelve-foot timbers into position all morning. Pine needles clung to his work gloves as he hoisted another log onto the carriage, checking its alignment before nodding to the sawyer. The blade descended again, biting deep into heartwood, filling the cavernous building with its relentless, deafening song.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 2,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_saw_4",
+        "domain": "sawmill",
+        "model": "sonnet",
+        "text": "The blade screamed through the pine log, sending a spray of golden sawdust into the air. Marcus guided the timber along the steel rails, his calloused hands steady against the rough bark. The massive circular saw spun at three thousand revolutions per minute, its teeth gleaming under the fluorescent lights that hung from the mill's steel rafters.\n\nSteam rose from the fresh-cut lumber as the blade bit deeper, releasing the sharp scent of resin and wood fiber. Marcus's forearms tensed as he adjusted his grip, feeling the vibration travel up through his boots from the concrete floor. The conveyor belt carried away the finished boards in an endless procession, each piece smooth and pale where the saw had carved away the outer bark.\n\nSawdust clung to his denim shirt and settled in the creases of his work gloves. The air hung thick with wood particles that caught the afternoon light streaming through the high windows. When the log finally cleared the blade, Marcus reached for the next piece, the routine as familiar as breathing.",
+        "orphaned": 0,
+        "earned": 2,
+        "literal_filtered": 4,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_kit_1",
+        "domain": "kitchen_fire",
+        "model": "sonnet",
+        "text": "The flames roared beneath the saut\u00e9 pan as Marcus flicked his wrist, sending diced onions tumbling through the air. Sweat beaded on his forehead, mixing with the steam that billowed from the pasta station. The industrial hood fan whirred overhead, barely cutting through the oppressive heat that radiated from six blazing burners.\n\nBehind him, the dishwasher's spray hose hissed against metal plates while servers rushed past, their shoes squeaking on the grease-slicked tiles. Marcus grabbed a towel from his waistband, wiping his hands before reaching for the pepper mill. The ticket machine chattered incessantly, spitting out order after order in an endless white stream.\n\nHis knife blade flashed as he julienned carrots, each precise cut keeping rhythm with the controlled chaos around him. The oven door clanged open, releasing another wave of scorching air. Oil popped and crackled in the deep fryer while someone called out pickup times from the pass. Marcus's chef coat, once pristine white, now bore the battle scars of marinara and olive oil. He plated three dishes simultaneously, his movements fluid and practiced despite the relentless pace.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 1,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_kit_2",
+        "domain": "kitchen_fire",
+        "model": "sonnet",
+        "text": "The sweat dripped from Marco's forehead as he maneuvered between the blazing grill and the industrial fryer, both roaring at full capacity. Steam billowed from the pasta station where boiling water churned violently in massive pots. The salamander overhead radiated waves of heat that made the air shimmer, while oil popped and hissed in cast-iron pans.\n\nHis hands moved with practiced precision\u2014flipping chicken breasts with steel tongs, their surfaces searing against the grill grates with sharp cracks. The ticket machine chattered relentlessly, spitting out order after order in an endless white stream. Marco's chef coat clung to his back, darkened with perspiration as he pivoted to check the oven, yanking out a sheet pan of roasted vegetables that sent another blast of scorching air across his face.\n\nThe kitchen tiles grew slick beneath his non-slip shoes from splattered grease and condensation. Around him, other cooks shouted over the mechanical hum of exhaust fans working overtime. Marco wiped his brow with his forearm and reached for the next ticket, muscles burning as the dinner rush reached its merciless peak.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 0,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_kit_3",
+        "domain": "kitchen_fire",
+        "model": "sonnet",
+        "text": "The heat from the six-burner stove blazed against Marcus's face as he flipped three chicken breasts in rapid succession. Sweat beaded on his forehead and dripped down his back, soaking through his white chef's coat. The ventilation hood roared overhead, struggling to pull away the thick, greasy air that hung like a curtain around the grill station.\n\nHis calloused hands moved with practiced efficiency\u2014grabbing a saut\u00e9 pan, tossing vegetables with a sharp flick of his wrist, then sliding the pan into the oven's scorching mouth. The metal door slammed shut with a bang that echoed through the cramped kitchen. Around him, ticket orders fluttered from the printer like confetti, each one demanding immediate attention.\n\nSteam hissed from the pasta station where boiling water churned violently. Marcus wiped his hands on his apron and reached for the next order, his sneakers squeaking against the grease-slicked floor tiles. The dinner rush showed no mercy\u2014plates crashed in the distance, timers buzzed insistently, and the relentless heat pressed down on everyone like a weighted blanket made of fire.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 0,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_kit_4",
+        "domain": "kitchen_fire",
+        "model": "sonnet",
+        "text": "The grill hissed as Marcus flipped the salmon fillets, sweat beading on his forehead despite the bandana wrapped around it. Steam billowed from the pasta station where Anna dropped fresh linguine into roiling water, the industrial burners roaring beneath massive steel pots. Oil crackled in the saut\u00e9 pans as vegetables hit the scorching surface, sending up aromatic clouds that mixed with the dense heat radiating from the wood-fired pizza oven.\n\nMarcus wiped his hands on his stained apron and reached for the next ticket, his movements sharp and practiced. The salamander broiler glowed orange above him as he slid a plate of fish underneath, the intense heat making him squint. Behind him, the dishwasher's spray nozzle thundered against steel plates, adding to the symphony of clanging pans and chopping knives.\n\nThe kitchen's temperature climbed past ninety degrees. Marcus's chef coat clung to his back as he plated three entr\u00e9es simultaneously, his calloused fingers moving with mechanical precision. The dinner rush showed no mercy\u2014tickets kept printing, orders kept coming, and the dance continued.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 0,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bat_1",
+        "domain": "battlefield_surgery",
+        "model": "sonnet",
+        "text": "Dr. Martinez pressed the scalpel against the soldier's torn abdomen, her hands steady despite the artillery thunder overhead. Blood pooled beneath her fingers as she explored the shrapnel-riddled cavity, searching for the jagged metal fragments that had punctured through muscle and organ. The makeshift operating table\u2014wooden planks balanced on ammunition crates\u2014trembled with each distant explosion.\n\nShe clamped a severed artery with forceps, then reached for the curved needle already threaded with catgut. The soldier's breathing grew shallow as she worked, suturing the damaged intestine with precise, economical stitches. Sweat dripped from her brow onto the surgical field despite the October chill.\n\nAnother stretcher arrived. This one carried a boy whose left leg hung at an impossible angle, white bone jutting through his torn fatigues. Martinez wiped her bloodied hands on her apron and selected a bone saw from her kit. The blade caught the lamplight as she moved toward the table, already calculating the amputation line. Outside, rifles cracked like breaking branches, but her world had narrowed to flesh and steel, needle and thread.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 5,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bat_2",
+        "domain": "battlefield_surgery",
+        "model": "sonnet",
+        "text": "Dr. Martinez pressed the hemostatic clamp against the soldier's severed femoral artery, his latex gloves already slick with blood. Shrapnel had torn through the young man's thigh, leaving jagged metal fragments embedded in the muscle tissue. The surgeon's hands moved with practiced efficiency despite the mortars exploding beyond the canvas walls of the field hospital.\n\nHe irrigated the wound with saline solution, the pink fluid pooling on the dirt floor beneath the makeshift operating table. His scalpel carved away the damaged tissue, revealing white bone beneath the mangled flesh. The soldier's leg twitched involuntarily as Martinez extracted a twisted piece of steel with his forceps.\n\nArtillery fire shook the tent, rattling the instrument tray. Sutures, gauze, and surgical scissors scattered across the blood-stained surface. Martinez didn't pause. He sutured the artery with silk thread, his needle piercing the vessel wall with precise movements. The bleeding slowed to a trickle.\n\nOutside, wounded men screamed for help. Martinez bandaged the leg quickly, his eyes already moving to the next stretcher. Another soldier, another desperate chance at salvation.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 6,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bat_3",
+        "domain": "battlefield_surgery",
+        "model": "sonnet",
+        "text": "Dr. Martinez pressed the scalpel against flesh, her hands steady despite the artillery thunder that shook dust from the makeshift tent's ceiling. The soldier on the table had taken shrapnel to his abdomen, jagged metal fragments glinting like dark stars beneath torn skin. Blood pooled in the cavity, obscuring her view as she worked to locate the largest piece.\n\nShe reached for the forceps, their steel surface slick with crimson. The wounded man's breathing came in shallow gasps, his face gray beneath layers of mud and gunpowder residue. Martinez clamped down on a severed vessel, stemming the flow that had soaked through three bandages already.\n\nHer fingers probed deeper, following the trajectory of metal through muscle and tissue. The tent flap burst open as stretcher bearers brought another casualty\u2014this one with his left leg mangled below the knee. She didn't look up from her current patient, couldn't afford the distraction.\n\nThe forceps found purchase on the largest fragment. She extracted it slowly, watching for fresh bleeding, then began suturing the deepest lacerations with practiced efficiency.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 6,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bat_4",
+        "domain": "battlefield_surgery",
+        "model": "sonnet",
+        "text": "Blood soaked through Captain Morrison's torn uniform as shrapnel from the mortar blast had torn open his abdomen. Dr. Hayes pressed sterile gauze against the gaping wound, her hands steady despite the artillery fire thundering overhead. The makeshift surgical tent reeked of antiseptic and gunpowder.\n\nShe reached for her scalpel, its blade catching the harsh light of the kerosene lamp. With practiced precision, she cut away the shredded fabric and debris embedded in the soldier's flesh. Morrison's breathing was shallow, his face pale as chalk. Hayes worked quickly, her forceps extracting metal fragments that clinked against the steel tray beside her.\n\nThe needle curved through torn muscle as she sutured the deepest laceration. Her surgical gloves were slick with blood, making the instruments slippery in her grip. Another explosion shook the ground, rattling her medical supplies. Without pause, she continued stitching, sealing the wound that could have claimed another life.\n\nMorrison's pulse strengthened beneath her fingertips. She bandaged the surgical site tightly before calling for the stretcher bearers.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 10,
+        "orphan_details": [
+          {
+            "word": "grip",
+            "score": 0.875,
+            "fields": [
+              "body"
+            ],
+            "sentence": "Her surgical gloves were slick with blood, making the instruments slippery in her grip."
+          }
+        ]
+      },
+      {
+        "id": "sonnet_bla_1",
+        "domain": "blacksmith",
+        "model": "sonnet",
+        "text": "The coals glowed white-hot in the forge's belly, casting dancing shadows across the stone walls. Marcus gripped the iron bar with heavy tongs, thrusting it deep into the furnace until the metal blazed orange like a captured sunset. Sweat beaded on his weathered brow as he withdrew the glowing steel and positioned it on the anvil's scarred surface.\n\nHis hammer fell in measured strikes, each blow sending sparks cascading to the dirt floor. The metal sang under the rhythmic pounding, gradually lengthening and flattening as he worked from tang to tip. Steam hissed when he plunged the blade into the quenching tub, the water roiling violently around the cherry-red steel.\n\nThe acrid smell of hot metal and coal smoke filled his nostrils. His calloused hands, black with soot and forge scale, moved with practiced precision as he returned the blade to the fire. The steel's color shifted from silver to straw yellow as he tempered it, drawing out the brittleness. Hours passed before he finally set down his tools, examining the straight, true edge that would serve its wielder well.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 6,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bla_2",
+        "domain": "blacksmith",
+        "model": "sonnet",
+        "text": "The forge roared like a caged beast, orange flames licking hungrily at the bellows-fed air. Sweat beaded on Marcus's weathered brow as he withdrew the glowing steel from the inferno, the metal radiating heat that shimmered in waves. The bar pulsed cherry-red, almost alive in the dim workshop.\n\nHe positioned it carefully on the anvil's scarred surface and raised his hammer. The first blow rang out sharp and clear, sending sparks cascading to the stone floor. Each subsequent strike was deliberate, purposeful\u2014flattening the steel, drawing it longer, coaxing the blade's shape from the raw material. The rhythmic percussion echoed off the soot-stained walls.\n\nWhen the metal cooled to dull orange, Marcus thrust it back into the forge's hungry mouth. The flames embraced it eagerly, restoring its malleability. Again he hammered, the steel gradually taking form under his practiced hands. Hours passed in this ancient dance of fire and iron, sweat and strength, until finally a crude blade emerged\u2014rough but promising, waiting for the careful work that would transform it into something deadly beautiful.",
+        "orphaned": 1,
+        "earned": 0,
+        "literal_filtered": 5,
+        "orphan_details": [
+          {
+            "word": "hungry",
+            "score": 0.8319444444444444,
+            "fields": [
+              "consumption"
+            ],
+            "sentence": "When the metal cooled to dull orange, Marcus thrust it back into the forge's hungry mouth."
+          }
+        ]
+      },
+      {
+        "id": "sonnet_bla_3",
+        "domain": "blacksmith",
+        "model": "sonnet",
+        "text": "The forge roared like a caged beast, its flames dancing orange and white in the dim workshop. Marcus gripped the tongs with calloused hands, pulling the glowing steel from the heart of the fire. The metal blazed cherry-red, almost too bright to look at directly.\n\nHe positioned the heated bar on the anvil's worn surface and raised his hammer. The first strike rang out sharp and clear, sending sparks cascading to the dirt floor. Again and again he brought the hammer down, each blow deliberate and measured. The steel flattened and stretched under the relentless percussion, gradually taking the shape of a blade.\n\nSweat beaded on his forehead despite the cool morning air. When the metal's glow began to fade, he thrust it back into the coals, working the bellows with his free hand. The fire responded hungrily, wrapping around the steel like liquid light.\n\nHours passed in this rhythm\u2014heat, hammer, reheat. Slowly, the rough bar transformed into something elegant and deadly, its edge gleaming with promise.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 10,
+        "orphan_details": []
+      },
+      {
+        "id": "sonnet_bla_4",
+        "domain": "blacksmith",
+        "model": "sonnet",
+        "text": "The forge roared like a caged beast, its orange flames licking hungrily at the bellows-fed air. Sweat beaded on Marcus's brow as he withdrew the glowing steel from the coals, the metal radiating heat that warmed his face even at arm's length. The bar pulsed cherry-red, then shifted to brilliant yellow-white as he positioned it on the anvil's scarred surface.\n\nHis hammer fell in measured strikes, each blow sending sparks cascading across the darkened workshop. The steel flattened and stretched under his rhythmic pounding, gradually taking the familiar shape of a blade. Marcus rotated the piece with practiced precision, his calloused hands immune to the residual heat that would blister softer skin.\n\nThe metal sang under his hammer\u2014a clear, ringing note that told him the steel was responding well. He returned it to the flames when the glow faded to dull orange, watching as the forge's breath restored its malleability. Hours passed in this ancient dance of fire and iron, until finally a crude but recognizable sword emerged from the raw bar stock.",
+        "orphaned": 0,
+        "earned": 0,
+        "literal_filtered": 4,
+        "orphan_details": []
+      }
+    ]
+  }
+}

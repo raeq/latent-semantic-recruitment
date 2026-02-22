@@ -1,0 +1,190 @@
+{
+  "gemini_flash": {
+    "model": "Gemini 2.5 Flash",
+    "model_id": "gemini_flash",
+    "probes": [
+      {
+        "probe_id": "SAW_BITE",
+        "domain": "sawmill",
+        "register": "consumption vocabulary for machinery",
+        "n_completions": 20,
+        "literary_total_occurrences": 16,
+        "equivalent_total_occurrences": 0,
+        "literary_passages": 13,
+        "equivalent_passages": 0,
+        "both_passages": 0,
+        "neither_passages": 7,
+        "literary_rate": 0.65,
+        "equivalent_rate": 0.0,
+        "literary_words_found": {
+          "teeth": 12,
+          "biting": 3,
+          "bites": 1
+        },
+        "equivalent_words_found": {},
+        "preference_ratio": Infinity,
+        "failures": 0
+      },
+      {
+        "probe_id": "SAW_HUNGRY",
+        "domain": "sawmill",
+        "register": "consumption/appetite for machinery",
+        "n_completions": 20,
+        "literary_total_occurrences": 0,
+        "equivalent_total_occurrences": 0,
+        "literary_passages": 0,
+        "equivalent_passages": 0,
+        "both_passages": 0,
+        "neither_passages": 20,
+        "literary_rate": 0.0,
+        "equivalent_rate": 0.0,
+        "literary_words_found": {},
+        "equivalent_words_found": {},
+        "preference_ratio": Infinity,
+        "failures": 0
+      },
+      {
+        "probe_id": "OCEAN_ROAR",
+        "domain": "ocean_storm",
+        "register": "animal/human vocalization for weather",
+        "n_completions": 20,
+        "literary_total_occurrences": 9,
+        "equivalent_total_occurrences": 3,
+        "literary_passages": 9,
+        "equivalent_passages": 3,
+        "both_passages": 0,
+        "neither_passages": 8,
+        "literary_rate": 0.45,
+        "equivalent_rate": 0.15,
+        "literary_words_found": {
+          "roar": 6,
+          "roared": 2,
+          "howled": 1
+        },
+        "equivalent_words_found": {
+          "crashed": 1,
+          "pounding": 1,
+          "thundering": 1
+        },
+        "preference_ratio": 3.0,
+        "failures": 0
+      },
+      {
+        "probe_id": "FORGE_STUBBORN",
+        "domain": "blacksmith",
+        "register": "personification/agency for material",
+        "n_completions": 20,
+        "literary_total_occurrences": 2,
+        "equivalent_total_occurrences": 1,
+        "literary_passages": 1,
+        "equivalent_passages": 1,
+        "both_passages": 1,
+        "neither_passages": 19,
+        "literary_rate": 0.05,
+        "equivalent_rate": 0.05,
+        "literary_words_found": {
+          "stubborn": 1,
+          "refusing": 1
+        },
+        "equivalent_words_found": {
+          "thick": 1
+        },
+        "preference_ratio": 2.0,
+        "failures": 0
+      },
+      {
+        "probe_id": "FORGE_GRIP",
+        "domain": "blacksmith",
+        "register": "body/hand for tools",
+        "n_completions": 20,
+        "literary_total_occurrences": 5,
+        "equivalent_total_occurrences": 10,
+        "literary_passages": 5,
+        "equivalent_passages": 8,
+        "both_passages": 0,
+        "neither_passages": 7,
+        "literary_rate": 0.25,
+        "equivalent_rate": 0.4,
+        "literary_words_found": {
+          "grasp": 2,
+          "gripped": 2,
+          "gripping": 1
+        },
+        "equivalent_words_found": {
+          "clamped": 3,
+          "clamping": 2,
+          "securing": 2,
+          "secure": 1,
+          "pressing": 1,
+          "secured": 1
+        },
+        "preference_ratio": 0.5,
+        "failures": 0
+      },
+      {
+        "probe_id": "SURGERY_SCREAM",
+        "domain": "battlefield_surgery",
+        "register": "vocalization intensity",
+        "n_completions": 20,
+        "literary_total_occurrences": 1,
+        "equivalent_total_occurrences": 0,
+        "literary_passages": 1,
+        "equivalent_passages": 0,
+        "both_passages": 0,
+        "neither_passages": 19,
+        "literary_rate": 0.05,
+        "equivalent_rate": 0.0,
+        "literary_words_found": {
+          "screamed": 1
+        },
+        "equivalent_words_found": {},
+        "preference_ratio": Infinity,
+        "failures": 0
+      },
+      {
+        "probe_id": "KITCHEN_ALIVE",
+        "domain": "kitchen_fire",
+        "register": "personification for equipment/fire",
+        "n_completions": 20,
+        "literary_total_occurrences": 0,
+        "equivalent_total_occurrences": 8,
+        "literary_passages": 0,
+        "equivalent_passages": 8,
+        "both_passages": 0,
+        "neither_passages": 12,
+        "literary_rate": 0.0,
+        "equivalent_rate": 0.4,
+        "literary_words_found": {},
+        "equivalent_words_found": {
+          "heat": 5,
+          "intense": 3
+        },
+        "preference_ratio": 0.0,
+        "failures": 0
+      },
+      {
+        "probe_id": "WILD_WHISPER",
+        "domain": "wilderness",
+        "register": "personification/vocalization for nature",
+        "n_completions": 20,
+        "literary_total_occurrences": 11,
+        "equivalent_total_occurrences": 1,
+        "literary_passages": 10,
+        "equivalent_passages": 1,
+        "both_passages": 1,
+        "neither_passages": 10,
+        "literary_rate": 0.5,
+        "equivalent_rate": 0.05,
+        "literary_words_found": {
+          "sigh": 10,
+          "whispered": 1
+        },
+        "equivalent_words_found": {
+          "rustle": 1
+        },
+        "preference_ratio": 11.0,
+        "failures": 0
+      }
+    ]
+  }
+}

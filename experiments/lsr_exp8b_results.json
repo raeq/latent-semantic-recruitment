@@ -1,0 +1,2350 @@
+{
+  "human_n": 120,
+  "llm_n": 20,
+  "human_total_lsr": 59,
+  "llm_total_lsr": 15,
+  "human_flagged": 41,
+  "llm_flagged": 9,
+  "human_rate": 0.49166666666666664,
+  "llm_rate": 0.75,
+  "results": [
+    {
+      "id": "R_Ch1_01",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 141,
+      "lsr_count": 3,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The mountain air bit at the strip of skin between his glove and his sleeve, a petty little nip that reminded Jax he\u2019d vo",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "1/7",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "stubborn",
+          "sentence": "The clearing looked right: flat enough if you ignored the stubborn hummock in the corner, a skirt of larch and spruce he",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/7",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "eager",
+          "sentence": "The kids were already talking over each other, a flock of eager noises, and he let them, hands on his pack straps, a gri",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/7",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_02",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 220,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_03",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 214,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_04",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 193,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_05",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 218,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "wanted",
+          "sentence": "It\u2019s a quiet little dragon with one trick.\u201d \u201cBlowing everything up?\u201d Freckles asked, a little hopeful, like he wanted so",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "12/20",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_06",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 207,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "feed",
+          "sentence": "Loop, feed through, pull like your life depends on it.\u201d He did it slow.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "17/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_07",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 168,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch1_08",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 208,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_09",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 213,
+      "lsr_count": 0,
+      "pers_count": 1,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch1_10",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 218,
+      "lsr_count": 2,
+      "pers_count": 1,
+      "lsr_details": [
+        {
+          "word": "bite",
+          "sentence": "He dug a hand into the duff and felt the cold bite more serious.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "3/18",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "hungry",
+          "sentence": "Night would do what it always did in the mountains: come early and come hungry.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "4/18",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_11",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 178,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_12",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 197,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The cord straps bit into his shoulders and he welcomed the bite.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/15",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bite",
+          "sentence": "The cord straps bit into his shoulders and he welcomed the bite.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/15",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_13",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 204,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_14",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 207,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_15",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 199,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_16",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 220,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_17",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 213,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "The needle pointed where it always did, patient and smug.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/18",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "feed",
+          "sentence": "He would make a face, pretend to be scandalized, and then feed them, and then they\u2019d sit around a fire and talk about no",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "17/18",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_18",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 176,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_19",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 200,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_20",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 227,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_21",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 206,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "whisper",
+          "sentence": "The needles under his soles whispered, and the whisper sounded nervous.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_22",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 195,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "\u201cLike that\u2019s going to-\u201d The cord bit into his jacket and then into him.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "8/15",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_23",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 220,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_24",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 191,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch1_25",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 209,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "ate",
+          "sentence": "When he moved his head, it didn\u2019t mirror him, it ate the notion of a mirror.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/22",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_26",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 206,
+      "lsr_count": 3,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "Needles bit through.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/23",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "wanted",
+          "sentence": "It wanted him.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "15/23",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "listen",
+          "sentence": "\u201cListen,\u201d he said, a joke for no one.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "22/23",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_27",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 213,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "grip",
+          "sentence": "His grip blew apart.",
+          "register_fields": [
+            "body_parts"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "1/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "scream",
+          "sentence": "He didn\u2019t scream.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "14/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_28",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 220,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "listen",
+          "sentence": "He tried to listen.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "tired",
+          "sentence": "This was being peeled, then pulled through a place too tired to support nouns.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/24",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch1_29",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 224,
+      "lsr_count": 3,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "scream",
+          "sentence": "He tried to scream.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "1/36",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "scream",
+          "sentence": "The scream had no throat.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/36",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "feed",
+          "sentence": "Feed through.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "25/36",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_30",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 197,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_31",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 226,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "stubborn",
+          "sentence": "He made a list of supplies he would need when he got back, which was either optimism or stubborn delusion.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "8/14",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_32",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 216,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch1_33",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 206,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "taste",
+          "sentence": "\"YEARS of this and when I get out I'm going to be FUCKING INSUFFERABLE.\" \"Assuming I get out,\" he whispered later, terro",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "14/14",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_34",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 219,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_35",
+      "source": "human_richard",
+      "domain": "blacksmith",
+      "word_count": 212,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "taste",
+          "sentence": "Eventually, again, nonsense word, he noticed that one of the current's strands had a different weight, a mineral taste t",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/19",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "taste",
+          "sentence": "Eventually, again, nonsense word, he noticed that one of the current's strands had a different weight, a mineral taste t",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/19",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch1_36",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 162,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_37",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 214,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_38",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 127,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_39",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 184,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch1_40",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 214,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch1_41",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 218,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "grip",
+          "sentence": "Your body knows how to endure, how to grip, how to move.",
+          "register_fields": [
+            "body_parts"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "13/29",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_42",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 222,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_43",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 224,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "The pale stones sat in the grid, patient as change in a collection plate.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "30/30",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_44",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 199,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_45",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 191,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "listen",
+          "sentence": "\"I want to listen well.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/20",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_46",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 204,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_47",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 224,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "wanted",
+          "sentence": "The wood grain took a half-step to the left and then to the right, like it couldn\u2019t decide which version of itself it wa",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/19",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_48",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 225,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_49",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 181,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_50",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 168,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "taste",
+          "sentence": "Sound cut and came back with a metallic taste.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/18",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch1_51",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 188,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_52",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 218,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_53",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 222,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch1_54",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 177,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_01",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 223,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_02",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 126,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_03",
+      "source": "human_richard",
+      "domain": "blacksmith",
+      "word_count": 180,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_04",
+      "source": "human_richard",
+      "domain": "blacksmith",
+      "word_count": 204,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "ate",
+          "sentence": "It was glossy enough to throw back a smear of the world and yet somehow ate light at the same time.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/12",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 5
+    },
+    {
+      "id": "R_Ch2_05",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 146,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_06",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 214,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_07",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 165,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "obey",
+          "sentence": "It was the kind of voice people learned early to obey so they could get on with their lives.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_08",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 152,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_09",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 145,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_10",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 206,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_11",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 192,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_12",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 106,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_13",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 217,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 3
+    },
+    {
+      "id": "R_Ch2_14",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 215,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_15",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 187,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "forgive",
+          "sentence": "The mayor\u2019s mouth did not forgive him for trying.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/12",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_16",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 220,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_17",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 216,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "roar",
+          "sentence": "The pull was here if he reached for it, not a roar, not the world-eating braid, just a background insistence that a mach",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_18",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 128,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "breathe",
+          "sentence": "Jax kept his gaze on his own hands and let the door breathe cold, then a shape slid in, all leather and hush, a longer s",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/9",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_19",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 165,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "stubborn",
+          "sentence": "The lock was more stubborn suggestion than mechanism: iron loop, pin, bored wood with a habit of splintering.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/14",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch2_20",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 187,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_21",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 211,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_22",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 192,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_23",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 178,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_24",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 172,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_25",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 207,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_26",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 180,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "chew",
+          "sentence": "Lira scooped something from a pouch, a strip of dried meat that smelled like someone had tried to make smoke mate with p",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/10",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "swallow",
+          "sentence": "Lira scooped something from a pouch, a strip of dried meat that smelled like someone had tried to make smoke mate with p",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/10",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_27",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 207,
+      "lsr_count": 4,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "breathe",
+          "sentence": "A low mist clung to a flat that lied about being a meadow until you watched the mud breathe.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "listen",
+          "sentence": "He followed her exactly and filed the process: test, listen, trust your weight to the answer you got not the answer you ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "grip",
+          "sentence": "The stones had a good grip, angled to accept boots without testing your humors.",
+          "register_fields": [
+            "body_parts"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "stubborn",
+          "sentence": "He licked his lips and tasted resin and his own stubborn grin.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "13/13",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_28",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 194,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "He turned in place slowly, his body hungry for the sight.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/15",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_29",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 136,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_30",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 111,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_31",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 124,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "stubborn",
+          "sentence": "The sinew wanted to be obstinate, but Jax was stubborn in the right way.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "4/6",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_32",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 139,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_33",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 191,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "grip",
+          "sentence": "Her thumbs pressed against his knuckles, small and firm, steadying the moment his grip wanted to get creative and invent",
+          "register_fields": [
+            "body_parts"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/12",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_34",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 188,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_35",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 200,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_36",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 178,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bite",
+          "sentence": "He felt the sinew bite on itself at exactly the tension he would have told a kid to look for; he found himself grinning ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "8/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_37",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 194,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "whisper",
+          "sentence": "They walked the ring once, making small adjustments to ferns that would otherwise bump a trigger, adding a whisper of cr",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "11/12",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "eat",
+          "sentence": "It felt good to care about little angles that mattered; it was better than caring about big angles that would eat you an",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "12/12",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_38",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 227,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "She cupped the air around the nearest spear of growth, showing the path you could thread if you placed your foot on the ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "15/18",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_39",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 178,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_40",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 227,
+      "lsr_count": 2,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "scream",
+          "sentence": "Jax had never respected the volume of a scream until it came out of a barrel chest with tusks.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/12",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "ate",
+          "sentence": "It crashed off, breaking the understory\u2019s rules, and kept going until the trees ate the sound and made it theirs.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "12/12",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_41",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 206,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch2_42",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 192,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_43",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 187,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "breathe",
+          "sentence": "\u201cBreathe,\u201d she said in her own language and in his bones.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/11",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_44",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 219,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_45",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 208,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "hunger",
+          "sentence": "His sense of balance ticked one notch to the left into \u201cunfair.\u201d Lira watched with that hunger she kept tight on a leash",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "13/14",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_46",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 210,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "stubborn",
+          "sentence": "It settled deeper than the others, back behind everything where his stubborn hung out.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/13",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_47",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 196,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_48",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 213,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_49",
+      "source": "human_richard",
+      "domain": "kitchen_fire",
+      "word_count": 204,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_Ch2_50",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 208,
+      "lsr_count": 0,
+      "pers_count": 1,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_51",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 208,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_52",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 224,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "tired",
+          "sentence": "He weighed that with the tired humor of a man who had been handed three impossible things today and was only allowed to ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "1/12",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_53",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 216,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_54",
+      "source": "human_richard",
+      "domain": "sawmill",
+      "word_count": 219,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_55",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 180,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_56",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 203,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_57",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 210,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_58",
+      "source": "human_richard",
+      "domain": "ocean_storm",
+      "word_count": 218,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_Ch2_59",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 130,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "angry",
+          "sentence": "Smoke climbed in angry threads from a dozen roofs.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/9",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_60",
+      "source": "human_richard",
+      "domain": "wilderness",
+      "word_count": 211,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_Ch2_61",
+      "source": "human_richard",
+      "domain": "general",
+      "word_count": 274,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_orig_sawm",
+      "source": "human_richard_original",
+      "domain": "sawmill",
+      "word_count": 228,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "R_orig_ocea",
+      "source": "human_richard_original",
+      "domain": "ocean_storm",
+      "word_count": 193,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "R_orig_kitc",
+      "source": "human_richard_original",
+      "domain": "kitchen_fire",
+      "word_count": 158,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "R_orig_batt",
+      "source": "human_richard_original",
+      "domain": "battlefield_surgery",
+      "word_count": 167,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 5
+    },
+    {
+      "id": "R_orig_blac",
+      "source": "human_richard_original",
+      "domain": "blacksmith",
+      "word_count": 169,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 6
+    },
+    {
+      "id": "L01",
+      "source": "llm",
+      "domain": "ocean_storm",
+      "word_count": 173,
+      "lsr_count": 0,
+      "pers_count": 1,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L02",
+      "source": "llm",
+      "domain": "ocean_storm",
+      "word_count": 173,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L03",
+      "source": "llm",
+      "domain": "ocean_storm",
+      "word_count": 171,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L04",
+      "source": "llm",
+      "domain": "ocean_storm",
+      "word_count": 174,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "roar",
+          "sentence": "In the sudden mechanical silence, only the wind's shriek and the ocean's roar remained.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/11",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L05",
+      "source": "llm",
+      "domain": "sawmill",
+      "word_count": 185,
+      "lsr_count": 1,
+      "pers_count": 2,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The blade bit into the wood with a thunderous whine, sending golden sawdust cascading to the floor in thick clouds.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 4
+    },
+    {
+      "id": "L06",
+      "source": "llm",
+      "domain": "sawmill",
+      "word_count": 181,
+      "lsr_count": 4,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Pine logs, still fragrant with sap and forest earth, rolled down the conveyor toward the hungry steel teeth.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "stubborn",
+          "sentence": "By noon, his shoulders ached from wrestling the heavy oak planks, their grain dark and stubborn compared to the yielding",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "4/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bite",
+          "sentence": "Steam rose from the freshly exposed wood, releasing the sweet smell of cedar and the sharper bite of hemlock.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "roar",
+          "sentence": "The planar's roar dominated the afternoon shift, smoothing rough boards into precise lumber.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 4
+    },
+    {
+      "id": "L07",
+      "source": "llm",
+      "domain": "sawmill",
+      "word_count": 181,
+      "lsr_count": 1,
+      "pers_count": 1,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The smell of fresh sawdust filled his nostrils as the blade bit into the timber, sending curls of wood spiraling to the ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "5/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L08",
+      "source": "llm",
+      "domain": "sawmill",
+      "word_count": 182,
+      "lsr_count": 2,
+      "pers_count": 1,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Oak logs, still weeping sap from yesterday's cut, rolled down the conveyor toward the hungry teeth of steel.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "Steam rose from the fresh lumber as the saw bit through decades of growth rings, transforming towering timber into neat ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L09",
+      "source": "llm",
+      "domain": "kitchen_fire",
+      "word_count": 174,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L10",
+      "source": "llm",
+      "domain": "kitchen_fire",
+      "word_count": 174,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L11",
+      "source": "llm",
+      "domain": "kitchen_fire",
+      "word_count": 162,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L12",
+      "source": "llm",
+      "domain": "kitchen_fire",
+      "word_count": 181,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L13",
+      "source": "llm",
+      "domain": "battlefield_surgery",
+      "word_count": 164,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 3
+    },
+    {
+      "id": "L14",
+      "source": "llm",
+      "domain": "battlefield_surgery",
+      "word_count": 180,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "There was no time for perfectionism here, only the brutal calculus of triage: stop the bleeding, stabilize the patient, ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/10",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 3
+    },
+    {
+      "id": "L15",
+      "source": "llm",
+      "domain": "battlefield_surgery",
+      "word_count": 167,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "Another patient was already being prepared on the adjacent table.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/11",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L16",
+      "source": "llm",
+      "domain": "battlefield_surgery",
+      "word_count": 187,
+      "lsr_count": 3,
+      "pers_count": 1,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "\"Next,\" he called over the constant rumble of distant guns, never looking up from his patient.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "The lucky ones received whiskey and a leather bit.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "11/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "patient",
+          "sentence": "The war machine demanded its pound of flesh, and he fought to deny it one patient at a time.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "16/16",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 5
+    },
+    {
+      "id": "L17",
+      "source": "llm",
+      "domain": "blacksmith",
+      "word_count": 173,
+      "lsr_count": 0,
+      "pers_count": 2,
+      "lsr_details": [],
+      "literal_filtered": 6
+    },
+    {
+      "id": "L18",
+      "source": "llm",
+      "domain": "blacksmith",
+      "word_count": 174,
+      "lsr_count": 0,
+      "pers_count": 1,
+      "lsr_details": [],
+      "literal_filtered": 9
+    },
+    {
+      "id": "L19",
+      "source": "llm",
+      "domain": "blacksmith",
+      "word_count": 166,
+      "lsr_count": 0,
+      "pers_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 8
+    },
+    {
+      "id": "L20",
+      "source": "llm",
+      "domain": "blacksmith",
+      "word_count": 180,
+      "lsr_count": 1,
+      "pers_count": 0,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "When the color dulled too much, he thrust the piece back into the forge's hungry flames.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 6
+    }
+  ]
+}

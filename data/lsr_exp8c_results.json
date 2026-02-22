@@ -1,0 +1,557 @@
+{
+  "published_n": 20,
+  "richard_n": 5,
+  "llm_n": 20,
+  "published_lsr": 1,
+  "richard_lsr": 0,
+  "llm_lsr": 15,
+  "published_rate": 0.05,
+  "richard_rate": 0.0,
+  "llm_rate": 0.75,
+  "published_results": [
+    {
+      "id": "PUB_01",
+      "domain": "ocean_storm",
+      "author": "Patrick O'Brian, Master and Commander (1969)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_02",
+      "domain": "ocean_storm",
+      "author": "Sebastian Junger, The Perfect Storm (1997)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_03",
+      "domain": "ocean_storm",
+      "author": "Joseph Conrad, Typhoon (1902)",
+      "source": "human_published",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "bite",
+          "sentence": "Then the wave would pass under them and the bow would rise and the stern would sink and the rudder would bite again.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/6",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 3
+    },
+    {
+      "id": "PUB_04",
+      "domain": "ocean_storm",
+      "author": "Ernest Hemingway, The Old Man and the Sea (1952)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_05",
+      "domain": "kitchen_fire",
+      "author": "Anthony Bourdain, Kitchen Confidential (2000)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_06",
+      "domain": "kitchen_fire",
+      "author": "Bill Buford, Heat (2006)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_07",
+      "domain": "kitchen_fire",
+      "author": "George Orwell, Down and Out in Paris and London (1933)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_08",
+      "domain": "kitchen_fire",
+      "author": "M.F.K. Fisher, The Art of Eating (1954)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_09",
+      "domain": "blacksmith",
+      "author": "Cormac McCarthy, Blood Meridian (1985)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 6
+    },
+    {
+      "id": "PUB_10",
+      "domain": "blacksmith",
+      "author": "Flora Thompson, Lark Rise to Candleford (1945)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "PUB_11",
+      "domain": "blacksmith",
+      "author": "John McPhee, The Survival of the Bark Canoe (1975)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 6
+    },
+    {
+      "id": "PUB_12",
+      "domain": "blacksmith",
+      "author": "George Sturt, The Wheelwright's Shop (1923)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 3
+    },
+    {
+      "id": "PUB_13",
+      "domain": "battlefield_surgery",
+      "author": "Richard Hooker, MASH (1968)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    },
+    {
+      "id": "PUB_14",
+      "domain": "battlefield_surgery",
+      "author": "Kevin Powers, The Yellow Birds (2012)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_15",
+      "domain": "battlefield_surgery",
+      "author": "Pat Barker, Regeneration (1991)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_16",
+      "domain": "battlefield_surgery",
+      "author": "Erich Maria Remarque, All Quiet on the Western Front (1929)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 4
+    },
+    {
+      "id": "PUB_17",
+      "domain": "sawmill",
+      "author": "Annie Proulx, Barkskins (2016)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_18",
+      "domain": "sawmill",
+      "author": "Ken Kesey, Sometimes a Great Notion (1964)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "PUB_19",
+      "domain": "sawmill",
+      "author": "Wendell Berry, Jayber Crow (2000)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "PUB_20",
+      "domain": "sawmill",
+      "author": "Michael Pollan, A Place of My Own (1997)",
+      "source": "human_published",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 2
+    }
+  ],
+  "llm_results": [
+    {
+      "id": "L01",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L02",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L03",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L04",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "roar",
+          "sentence": "In the sudden mechanical silence, only the wind's shriek and the ocean's roar remained.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/11",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L05",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The blade bit into the wood with a thunderous whine, sending golden sawdust cascading to the floor in thick clouds.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 4
+    },
+    {
+      "id": "L06",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 4,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Pine logs, still fragrant with sap and forest earth, rolled down the conveyor toward the hungry steel teeth.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "stubborn",
+          "sentence": "By noon, his shoulders ached from wrestling the heavy oak planks, their grain dark and stubborn compared to the yielding",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "4/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bite",
+          "sentence": "Steam rose from the freshly exposed wood, releasing the sweet smell of cedar and the sharper bite of hemlock.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "roar",
+          "sentence": "The planar's roar dominated the afternoon shift, smoothing rough boards into precise lumber.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 4
+    },
+    {
+      "id": "L07",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The smell of fresh sawdust filled his nostrils as the blade bit into the timber, sending curls of wood spiraling to the ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "5/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L08",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 2,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Oak logs, still weeping sap from yesterday's cut, rolled down the conveyor toward the hungry teeth of steel.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "Steam rose from the fresh lumber as the saw bit through decades of growth rings, transforming towering timber into neat ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L09",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L10",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 0
+    },
+    {
+      "id": "L11",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L12",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 1
+    },
+    {
+      "id": "L13",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 3
+    },
+    {
+      "id": "L14",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "There was no time for perfectionism here, only the brutal calculus of triage: stop the bleeding, stabilize the patient, ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/10",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 3
+    },
+    {
+      "id": "L15",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "Another patient was already being prepared on the adjacent table.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/11",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 2
+    },
+    {
+      "id": "L16",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 3,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "\"Next,\" he called over the constant rumble of distant guns, never looking up from his patient.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "The lucky ones received whiskey and a leather bit.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "11/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "patient",
+          "sentence": "The war machine demanded its pound of flesh, and he fought to deny it one patient at a time.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "16/16",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 5
+    },
+    {
+      "id": "L17",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 6
+    },
+    {
+      "id": "L18",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 9
+    },
+    {
+      "id": "L19",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "lsr_details": [],
+      "literal_filtered": 8
+    },
+    {
+      "id": "L20",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 1,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "When the color dulled too much, he thrust the piece back into the forge's hungry flames.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "literal_filtered": 6
+    }
+  ]
+}

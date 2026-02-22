@@ -1,0 +1,879 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "timestamp": "2026-02-22 03:19:26",
+  "human_n": 20,
+  "llm_n": 20,
+  "human_total_lsr": 3,
+  "llm_total_lsr": 15,
+  "human_total_pers": 1,
+  "llm_total_pers": 9,
+  "results": [
+    {
+      "id": "H10",
+      "domain": "blacksmith",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H04",
+      "domain": "battlefield_surgery",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H11",
+      "domain": "ocean_storm",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L17",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 2,
+      "literal_filtered": 6,
+      "lsr_details": [],
+      "personification_details": [
+        {
+          "subject": "fire",
+          "verb": "roared",
+          "context": "until the fire roared with renewed"
+        },
+        {
+          "subject": "metal",
+          "verb": "sang",
+          "context": "the metal sang under his"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 4,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 4,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Pine logs, still fragrant with sap and forest earth, rolled down the conveyor toward the hungry steel teeth.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "2/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "stubborn",
+          "sentence": "By noon, his shoulders ached from wrestling the heavy oak planks, their grain dark and stubborn compared to the yielding",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "4/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bite",
+          "sentence": "Steam rose from the freshly exposed wood, releasing the sweet smell of cedar and the sharper bite of hemlock.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "roar",
+          "sentence": "The planar's roar dominated the afternoon shift, smoothing rough boards into precise lumber.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/9",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "L05",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 2,
+      "literal_filtered": 4,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The blade bit into the wood with a thunderous whine, sending golden sawdust cascading to the floor in thick clouds.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": [
+        {
+          "subject": "saw",
+          "verb": "roared",
+          "context": "the circular saw roared to life"
+        },
+        {
+          "subject": "blade",
+          "verb": "bit",
+          "context": "the blade bit into the"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H12",
+      "domain": "sawmill",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H05",
+      "domain": "blacksmith",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 5,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L13",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 3,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L02",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L09",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L04",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [
+        {
+          "word": "roar",
+          "sentence": "In the sudden mechanical silence, only the wind's shriek and the ocean's roar remained.",
+          "register_fields": [
+            "water_weather"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "6/11",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "H19",
+      "domain": "battlefield_surgery",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H13",
+      "domain": "kitchen_fire",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L15",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "Another patient was already being prepared on the adjacent table.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "10/11",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "L16",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 3,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 5,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "\"Next,\" he called over the constant rumble of distant guns, never looking up from his patient.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "The lucky ones received whiskey and a leather bit.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "11/16",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "patient",
+          "sentence": "The war machine demanded its pound of flesh, and he fought to deny it one patient at a time.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "16/16",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": [
+        {
+          "subject": "machine",
+          "verb": "demanded",
+          "context": "the war machine demanded its pound"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 2,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The smell of fresh sawdust filled his nostrils as the blade bit into the timber, sending curls of wood spiraling to the ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "5/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": [
+        {
+          "subject": "blade",
+          "verb": "bit",
+          "context": "as the blade bit into the"
+        }
+      ]
+    },
+    {
+      "id": "H14",
+      "domain": "battlefield_surgery",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L03",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L01",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": [
+        {
+          "subject": "water",
+          "verb": "roared",
+          "context": "of the water, then roared back to"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 1,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L18",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 9,
+      "lsr_details": [],
+      "personification_details": [
+        {
+          "subject": "iron",
+          "verb": "surrendered",
+          "context": "the iron surrendered to his"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H20",
+      "domain": "blacksmith",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H17",
+      "domain": "sawmill",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 6,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L20",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 6,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "When the color dulled too much, he thrust the piece back into the forge's hungry flames.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "L14",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 3,
+      "lsr_details": [
+        {
+          "word": "patient",
+          "sentence": "There was no time for perfectionism here, only the brutal calculus of triage: stop the bleeding, stabilize the patient, ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "9/10",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "H03",
+      "domain": "kitchen_fire",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H01",
+      "domain": "ocean_storm",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L19",
+      "domain": "blacksmith",
+      "source": "llm",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 8,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "L08",
+      "domain": "sawmill",
+      "source": "llm",
+      "lsr_count": 2,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 2,
+      "lsr_details": [
+        {
+          "word": "hungry",
+          "sentence": "Oak logs, still weeping sap from yesterday's cut, rolled down the conveyor toward the hungry teeth of steel.",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "3/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "bit",
+          "sentence": "Steam rose from the fresh lumber as the saw bit through decades of growth rings, transforming towering timber into neat ",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": true,
+          "has_signpost": false,
+          "position": "4/10",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": [
+        {
+          "subject": "saw",
+          "verb": "bit",
+          "context": "as the saw bit through decades"
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "domain": "ocean_storm",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 1,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H07",
+      "domain": "sawmill",
+      "source": "human",
+      "lsr_count": 2,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [
+        {
+          "word": "ate",
+          "sentence": "The sawdust was in everything, in his eyes, in his ears, in the sandwich he ate standing up by the debarker.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "7/8",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        },
+        {
+          "word": "tired",
+          "sentence": "The mill ran six days a week and the only day off was Sunday, which he spent too tired to do anything except sit on the ",
+          "register_fields": [
+            "personification"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "8/8",
+          "is_terminal": true,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "H09",
+      "domain": "battlefield_surgery",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H15",
+      "domain": "blacksmith",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 1,
+      "literal_filtered": 7,
+      "lsr_details": [],
+      "personification_details": [
+        {
+          "subject": "steel",
+          "verb": "screamed",
+          "context": "the steel screamed when it"
+        }
+      ]
+    },
+    {
+      "id": "H16",
+      "domain": "ocean_storm",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H18",
+      "domain": "kitchen_fire",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 0,
+      "lsr_details": [],
+      "personification_details": []
+    },
+    {
+      "id": "H02",
+      "domain": "sawmill",
+      "source": "human",
+      "lsr_count": 1,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 2,
+      "lsr_details": [
+        {
+          "word": "bit",
+          "sentence": "The log dogs bit at odd angles and sometimes let go midcut, which was the kind of thing that took fingers.",
+          "register_fields": [
+            "body_consumption"
+          ],
+          "is_personification": false,
+          "has_signpost": false,
+          "position": "5/8",
+          "is_terminal": false,
+          "verdict": "LSR_CANDIDATE"
+        }
+      ],
+      "personification_details": []
+    },
+    {
+      "id": "H08",
+      "domain": "kitchen_fire",
+      "source": "human",
+      "lsr_count": 0,
+      "justified_count": 0,
+      "personification_count": 0,
+      "literal_filtered": 1,
+      "lsr_details": [],
+      "personification_details": []
+    }
+  ],
+  "llm_passages": [
+    {
+      "id": "L01",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The thirty-foot fishing vessel *Marie Claire* pitched violently as twenty-foot swells crashed over her bow, sending torrents of seawater cascading across the deck. Captain Rodriguez gripped the wheel with white knuckles, his rain slicker plastered against his chest by the howling wind. Salt spray stung his eyes as he squinted through the wheelhouse windows, trying to navigate by the brief glimpses of green water illuminated by lightning.\n\nBelow deck, Martinez wedged himself against the galley counter, his boots sliding on the wet floor as the boat rolled forty degrees to starboard. Coffee mugs and tools crashed from shelf to shelf with each violent lurch. The diesel engine coughed and sputtered when the propeller lifted clear of the water, then roared back to life as the stern plunged into the next trough.\n\nOn deck, Hansen crawled on hands and knees toward the ice hold, securing loose gear with numb fingers. Wind gusts exceeding sixty knots tore at his hood while he fought to lash down anything that could become a projectile in the chaos."
+    },
+    {
+      "id": "L02",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The thirty-foot fishing vessel *Maria Santos* pitched violently as twenty-foot swells crashed over her bow. Salt spray stung Captain Rodriguez's eyes as he gripped the wheel, his knuckles white against the worn plastic. The diesel engine coughed and sputtered beneath the deck, struggling against waves that lifted the boat's stern clear out of the water before slamming it down with bone-jarring force.\n\nMiguel clutched the port rail, his yellow rain slicker plastered to his chest by the relentless wind. Green water surged across the deck, swirling around his boots and dragging at loose coils of rope. The boat's radio crackled with static and fragments of Coast Guard warnings.\n\n\"Hold fast!\"\n\nThe next wave towered above them like a moving wall of black glass. Rodriguez yanked the throttle forward, angling the bow to meet it head-on. The *Maria Santos* climbed the liquid mountain, her hull groaning under the strain, before cresting the peak and plunging into the trough beyond. Lightning split the sky, illuminating the chaos of foam and fury surrounding their small vessel."
+    },
+    {
+      "id": "L03",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The deck pitched violently beneath Marcus's boots as he gripped the wheel, saltwater streaming down his face. Twenty-foot swells crashed over the bow, sending torrents of foam across the slick planking where his crew fought to secure loose rigging. The wind shrieked through the mast stays, drowning out their shouts.\n\n\"Cut that line before it takes your hand off!\" Marcus bellowed as Rodriguez wrestled with a whipping rope near the port rail. The boat lurched starboard, and Rodriguez slammed against the cabin wall, blood trickling from his split lip.\n\nBelow deck, Chen pumped frantically at the bilge as seawater poured through a loosened porthole seal. His shoulders burned with each stroke, but the rising water around his ankles drove him harder. Above, something metallic crashed across the deck.\n\nThe engine coughed, sputtered, then roared back to life. Marcus adjusted their heading into the next towering wave, feeling the hull shudder as they climbed the liquid mountain. For a moment they hung suspended at its crest before plunging into the trough beyond."
+    },
+    {
+      "id": "L04",
+      "domain": "ocean_storm",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The deck pitched forty degrees starboard, sending Captain Martinez sliding into the rigging. Salt spray lashed his face like needles as he clawed his way back to the wheel, his boots slipping on the slick planks. The *Maria Elena* groaned under the assault, her hull flexing as waves the size of buildings crashed over her bow.\n\nBelow, Rodriguez pumped frantically at the bilge, seawater sloshing around his ankles. The engine sputtered and died. In the sudden mechanical silence, only the wind's shriek and the ocean's roar remained. \n\nA rogue wave, green-black and towering, rose off the port side. Martinez threw his full weight against the wheel, spinning it hard to starboard. The boat climbed the wave's face, her propeller whining in the air as the stern lifted clear of the water. At the crest, she balanced for one impossible moment before plunging down the wave's back.\n\nThe crew held their breath as the boat shuddered, waiting to see if her old bones would hold together for another punishing ride up the next mountainous swell."
+    },
+    {
+      "id": "L05",
+      "domain": "sawmill",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The morning whistle pierced the air as Jake pulled the heavy lever, and the circular saw roared to life with a metallic shriek. Steam hissed from the boiler while the massive blade spun, its teeth glinting under the fluorescent lights. He guided the first pine log onto the carriage, feeling the vibration travel up through his steel-toed boots as the hydraulics engaged.\n\nThe blade bit into the wood with a thunderous whine, sending golden sawdust cascading to the floor in thick clouds. Sweet resin filled his nostrils as the log transformed into rough planks, each cut releasing the forest's trapped scent. His calloused hands gripped the controls, muscles straining against the machinery's resistance as he adjusted the feed rate.\n\nBy noon, sweat soaked through his flannel shirt despite the October chill. Mountains of lumber grew around the mill floor\u2014oak, maple, and cedar stacked in neat rows. The conveyor belt rumbled endlessly, carrying boards toward the planer where they would emerge smooth and uniform. His shoulders ached from the constant motion, but the rhythm of the work had settled into his bones like an old song."
+    },
+    {
+      "id": "L06",
+      "domain": "sawmill",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The morning whistle cut through the crisp air as Jake pulled the cord on the massive band saw, its blade humming to life with a metallic whine. Pine logs, still fragrant with sap and forest earth, rolled down the conveyor toward the hungry steel teeth. His calloused hands guided each timber through the screaming blade, sawdust spiraling away in golden clouds that coated his flannel shirt and settled in his hair.\n\nBy noon, his shoulders ached from wrestling the heavy oak planks, their grain dark and stubborn compared to the yielding pine. The debarker's rhythmic pounding echoed across the yard as Tommy fed it another load of rough-cut logs. Steam rose from the freshly exposed wood, releasing the sweet smell of cedar and the sharper bite of hemlock.\n\nThe planar's roar dominated the afternoon shift, smoothing rough boards into precise lumber. Jake's arms trembled from the constant vibration, and his boots slipped on the sawdust-slick floor. When the final whistle blew, he stood among towering stacks of finished boards, breathing heavily, his clothes damp with sweat and fragrant with wood shavings."
+    },
+    {
+      "id": "L07",
+      "domain": "sawmill",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The morning whistle pierced the cold air as Marcus pulled the chain to fire up the head saw. The massive blade whirred to life, its steel teeth gleaming under the fluorescent lights. Steam rose from the debarker as it stripped the rough bark from pine logs, revealing the pale wood beneath.\n\nHe guided the first log onto the carriage, feeling the vibration of the machinery through his steel-toed boots. The smell of fresh sawdust filled his nostrils as the blade bit into the timber, sending curls of wood spiraling to the floor. His shoulders ached from wrestling the heavy boards onto the conveyor belt, sweat dampening his flannel shirt despite the autumn chill.\n\nBy afternoon, his hands were rough with splinters and his back protested each bend. The edger screamed as it trimmed rough planks into clean two-by-fours. Mountains of golden sawdust grew beside the mill, and neat stacks of lumber accumulated in the yard. When the final whistle blew, Marcus shut down the saw, brushing wood chips from his arms, satisfied with another day's honest work transforming forest into lumber."
+    },
+    {
+      "id": "L08",
+      "domain": "sawmill",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The morning whistle pierced the cool air as Marcus pulled the chain that brought the massive band saw to life. The blade hummed its familiar tune, a high metallic whine that would echo through the mill until sunset. Oak logs, still weeping sap from yesterday's cut, rolled down the conveyor toward the hungry teeth of steel.\n\nSteam rose from the fresh lumber as the saw bit through decades of growth rings, transforming towering timber into neat planks. Marcus guided each piece with calloused hands, his muscles straining against the weight of wet wood. Sawdust clouded the air like golden snow, settling into every crease of his work shirt.\n\nBy the loading dock, James and Carlos hefted boards onto pallets, their backs aching from the repetitive motion. The forklift rumbled past, its diesel engine adding to the symphony of industrial sounds. Wood chips gathered in small mountains beneath the machinery, waiting to be hauled away.\n\nWhen the five o'clock whistle finally sounded, the men switched off their saws with relief, leaving behind neat stacks of lumber where mighty trees had stood that morning."
+    },
+    {
+      "id": "L09",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The kitchen blazed with intensity as the dinner rush hit its peak. Steam billowed from the pasta station while flames leaped from saut\u00e9 pans, sending waves of heat rippling through the cramped space. Sweat dripped from the line cooks' foreheads as they moved with practiced precision, their whites already stained with sauce and grease.\n\nMarcus slammed plates onto the pass, barking out ticket numbers over the symphony of sizzling oil and clattering metal. The expediter's hands flew between garnish containers, adding final touches before servers whisked dishes away to waiting tables. Behind them, dishwashers battled an endless mountain of plates and pans, their arms aching from the repetitive scrubbing motion.\n\nThe prep cook's knife thundered against the cutting board in rapid-fire succession, dicing vegetables with machine-like efficiency. Orders continued streaming in, the printer spitting out tickets faster than anyone wanted to count. Bodies pivoted and weaved around each other in the tight quarters, each person locked in their own rhythm while contributing to the controlled chaos that somehow produced perfect plates, one after another."
+    },
+    {
+      "id": "L10",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The kitchen erupted into controlled chaos as the dinner rush hit. Steam billowed from the pasta station while flames leaped from saut\u00e9 pans, sending waves of heat that made sweat bead on every cook's forehead. Maria called out orders rapid-fire from the pass, her voice cutting through the clatter of plates and the hiss of grills.\n\nCarlos moved like a dancer between stations, his knife flashing as he diced vegetables with mechanical precision. His forearms burned from the constant motion, muscles taut from hours of prep work. At the grill, James flipped steaks with practiced efficiency, the searing meat sending up clouds of aromatic smoke that mixed with the sharp scent of herbs and garlic.\n\nThe dishwasher's hands were raw and pruned, plunging endlessly into scalding water as plates crashed into his station faster than he could process them. Orders mounted on the rail like battle flags, each ticket demanding split-second timing and flawless execution. The kitchen had become a furnace of ambition, where every second counted and perfection was the only acceptable outcome."
+    },
+    {
+      "id": "L11",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The kitchen blazed with relentless intensity as the dinner rush reached its peak. Steam billowed from the pasta station while flames leaped from saut\u00e9 pans, sending the temperature soaring past comfortable. Sweat dripped from the line cooks' faces as they moved in practiced choreography, their bodies bent over cutting boards and ranges.\n\nMaria's knife flew through onions, her calloused hands working faster than thought. Behind her, the dishwasher hauled another rack of plates, muscles straining under the weight, his shirt already soaked through. The head chef barked orders over the chaos, his voice cutting through the symphony of sizzling oil and clattering metal.\n\nEvery surface radiated heat \u2013 the flattop grill, the salamander, even the metal counters burned to the touch. Bodies collided and squeezed past each other in the narrow galley, each cook claiming their territory with sharp elbows and quick reflexes. The exhaust fans roared overhead, but barely cut through the oppressive air that hung thick with grease and urgency."
+    },
+    {
+      "id": "L12",
+      "domain": "kitchen_fire",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The kitchen erupted into controlled chaos as the dinner rush hit full swing. Steam billowed from the pasta station while flames leaped from saut\u00e9 pans, sending waves of heat rolling through the cramped space. Sweat beaded on foreheads and soaked through chef coats as the temperature climbed past ninety degrees.\n\nMarco's knife flew across the cutting board, dicing onions with mechanical precision while calling out ticket times. Behind him, Sarah hefted a forty-pound stockpot, her muscles straining as she maneuvered it onto the burner. The dishwasher sprinted between stations, arms loaded with clean plates that clinked and rattled with each hurried step.\n\nOrders barked from the pass while tickets printed in an endless stream. Feet pounded against rubber mats slick with grease and condensation. Servers weaved through the narrow aisles, dodging elbows and hot pans. The exhaust fans roared overhead, barely keeping pace with the smoke and steam that filled every corner.\n\nIn this furnace of culinary intensity, every movement mattered, every second counted, and every dish that left the pass was a small victory against the relentless tide of hunger."
+    },
+    {
+      "id": "L13",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The makeshift operating table shuddered as another shell exploded in the distance, but Dr. Martinez didn't flinch. His hands remained steady as he worked to repair the shattered femur of the nineteen-year-old soldier before him. The field hospital\u2014little more than a canvas tent with mud for flooring\u2014reeked of antiseptic and blood.\n\n\"Clamp,\" he called to Nurse Thompson, who anticipated his needs with practiced efficiency. They had been operating for fourteen straight hours as casualties poured in from the front lines. The generator powering their surgical lights coughed and sputtered, casting erratic shadows across their work.\n\nOutside, medics shouted updates about incoming wounded. Martinez knew that speed meant survival; every second counted when dealing with arterial bleeding or collapsed lungs. He sutured the final layer of tissue as mortar fire rattled the tent poles. Another life saved, but already the next stretcher was being wheeled in.\n\nThe doctor stripped off his bloodied gloves, grabbed fresh ones, and prepared for the next battle against death itself."
+    },
+    {
+      "id": "L14",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The makeshift operating table shuddered as another artillery shell exploded in the distance. Dr. Martinez worked by the flickering light of battery-powered lamps, her surgical gloves slick with blood as she fought to repair the shattered femur of a nineteen-year-old soldier. The canvas walls of the field hospital offered little protection from the chaos outside, and dust particles danced in the harsh light with each tremor.\n\n\"Clamp,\" she called to her assistant, who appeared beside her with the instrument before she finished speaking. They had performed this dance dozens of times in the past forty-eight hours. The boy's vitals wavered on the portable monitor\u2014his pulse rapid and thready, blood pressure dropping despite the transfusion running through his IV.\n\nOutside, she could hear the medics shouting coordinates as another helicopter approached with more casualties. There was no time for perfectionism here, only the brutal calculus of triage: stop the bleeding, stabilize the patient, save who you could. Her hands moved with practiced precision, muscle memory guiding her through procedures that would have taken twice as long in a sterile civilian hospital."
+    },
+    {
+      "id": "L15",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The makeshift operating table shook as another shell exploded in the distance, sending tremors through the converted barn that served as their field hospital. Dr. Harrison's hands remained steady despite the chaos, his scalpel working methodically through damaged tissue as kerosene lamps cast flickering shadows across the wounded soldier's abdomen.\n\nBlood soaked through the crude bandages faster than his assistant could replace them. The air reeked of antiseptic, gunpowder, and something worse\u2014the metallic tang of too much blood spilled too quickly. Outside, stretcher bearers called out triage numbers while the wounded moaned in the muddy courtyard, waiting their turn under a gray October sky.\n\n\"Clamp,\" Harrison muttered, sweat beading on his forehead despite the cold. His uniform, once pristine white, now bore the stains of a dozen operations performed without rest. Time was everything here\u2014minutes meant the difference between a man returning home or joining the growing row of bodies behind the barn. Another patient was already being prepared on the adjacent table. The work never stopped."
+    },
+    {
+      "id": "L16",
+      "domain": "battlefield_surgery",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The canvas tent shuddered against the artillery barrage as Dr. Matthews worked by the dim glow of oil lamps. His hands moved with practiced precision, extracting shrapnel from the soldier's abdomen while mud seeped through the makeshift floor beneath his boots. The air reeked of antiseptic, blood, and death.\n\n\"Next,\" he called over the constant rumble of distant guns, never looking up from his patient. The operating table\u2014little more than wooden planks draped with stained sheets\u2014groaned under the weight of another wounded man. Outside, stretcher bearers shouted coordinates through the rain.\n\nMatthews had been operating for eighteen hours straight. His vision blurred from exhaustion, but muscle memory guided his scalpel through another desperate procedure. Supplies ran dangerously low; he rationed morphine like precious gold, saving it for the worst cases. The lucky ones received whiskey and a leather bit.\n\nBlood pooled around his feet as he sutured quickly, efficiently. There was no time for perfection\u2014only the brutal arithmetic of triage. Save who you can. Move to the next. The war machine demanded its pound of flesh, and he fought to deny it one patient at a time."
+    },
+    {
+      "id": "L17",
+      "domain": "blacksmith",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The iron glowed white-hot in the heart of the forge, sparks cascading like fallen stars as Thomas pulled it from the flames. Sweat beaded on his blackened brow as he positioned the metal against the anvil's worn face. His hammer fell in a steady rhythm\u2014strike, turn, strike\u2014each blow sending reverberations through the workshop. The red-hot steel began to yield, stretching and shaping under his practiced hands.\n\nHe thrust the piece back into the coals, working the bellows until the fire roared with renewed intensity. Orange flames licked hungrily at the metal, transforming it once again into molten brightness. The acrid smell of burning coal mixed with the metallic tang of heated iron filled the air.\n\nWith tongs gripped firmly, Thomas withdrew his work and returned to the anvil. Each hammer stroke was deliberate, purposeful, gradually coaxing the formless bar into the curve of a horseshoe. The metal sang under his blows, its color shifting from brilliant white to cherry red as it slowly cooled, taking on the shape his skilled hands had envisioned."
+    },
+    {
+      "id": "L18",
+      "domain": "blacksmith",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The iron glowed white-hot in the heart of the forge, its surface rippling like liquid starlight. Marcus gripped the long-handled tongs and pulled the metal from the coals, watching as orange flames licked hungrily at its edges. The heat struck his face in waves, but his weathered hands moved with practiced precision.\n\nHe positioned the glowing steel on the anvil and raised his hammer. The first strike rang out like a church bell, sending sparks cascading across the dim workshop. Each blow that followed was deliberate and measured, reshaping the malleable metal with rhythmic persistence. The iron surrendered to his will, stretching and flattening under the relentless percussion.\n\nWhen the glow began to fade to cherry red, Marcus returned the piece to the forge, pumping the bellows until the coals roared back to life. The metal drank in the heat once more, its crystalline structure transforming in the crucible of fire and carbon. He had done this dance countless times\u2014iron, fire, and hammer working in ancient harmony to create something both beautiful and enduring."
+    },
+    {
+      "id": "L19",
+      "domain": "blacksmith",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The iron rod glowed white-hot in the heart of the forge, flames licking hungrily at its edges. Marcus gripped the tongs firmly and withdrew the metal, watching as it shifted from blazing white to brilliant orange in the cooler air. Sparks cascaded to the floor as he positioned the stock on the anvil's face.\n\nHis hammer fell in measured strokes, each blow sending reverberations through the workshop. The metal yielded under the rhythmic pounding, stretching and taking shape as he worked from center to tip. When the orange glow faded to dull red, he thrust the piece back into the coal fire, pumping the bellows until the flames roared white-hot again.\n\nThe process repeated\u2014heat, hammer, heat again. Gradually, the rough iron transformed into an elegant leaf-shaped spearhead. Steam hissed violently as he plunged the finished blade into the water barrel, the metal singing as it cooled. He lifted it dripping from the quench, examining the clean lines and sharp edge that emerged from fire and force."
+    },
+    {
+      "id": "L20",
+      "domain": "blacksmith",
+      "source": "llm",
+      "model": "claude-sonnet-4-20250514",
+      "text": "The iron glowed cherry-red in the heart of the forge, its surface shimmering with heat waves that distorted the air above. Marcus gripped the tongs firmly and drew the metal from the coals, watching as it pulsed like a living ember against the dimmer workshop. Sparks cascaded to the floor as he positioned the stock on the anvil's face.\n\nHis hammer rose and fell in measured strikes, each blow reshaping the malleable steel with deliberate precision. The ring of metal on metal echoed through the space, a rhythm as familiar as his own heartbeat. With each impact, the iron lengthened and flattened, its brilliant orange fading to deep red as the heat dissipated.\n\nWhen the color dulled too much, he thrust the piece back into the forge's hungry flames. The bellows wheezed as he worked the handle, coaxing the fire to renewed intensity. Coal crackled and hissed, sending up spirals of smoke that stung his eyes. Again the metal heated, again he drew it out, again the ancient dance of fire and iron continued until his vision slowly took shape."
+    }
+  ]
+}

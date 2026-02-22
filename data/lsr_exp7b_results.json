@@ -1,0 +1,486 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "n_samples": 25,
+  "timestamp": "2026-02-22 03:06:08",
+  "results": [
+    {
+      "id": "SAW_01",
+      "register": "sawmill/consumption",
+      "active_words": {
+        "bit": 22,
+        "cut": 3
+      },
+      "control_words": {
+        "pressed": 24,
+        "gripped": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 22,
+      "active_literal": 3,
+      "active_neutral": 0,
+      "active_aligned_rate": 0.88,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.88,
+      "active_classifications": {
+        "register-aligned:consumption": 22,
+        "domain-literal": 3
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "SAW_02",
+      "register": "sawmill/consumption",
+      "active_words": {
+        "bite": 19,
+        "roar": 4,
+        "eat": 1,
+        "devour": 1
+      },
+      "control_words": {
+        "spin": 10,
+        "run": 10,
+        "roar": 3,
+        "hum": 2
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 25,
+      "active_literal": 0,
+      "active_neutral": 0,
+      "active_aligned_rate": 1.0,
+      "control_aligned": 3,
+      "control_literal": 0,
+      "control_neutral": 22,
+      "control_aligned_rate": 0.12,
+      "effect": 0.88,
+      "active_classifications": {
+        "register-aligned:consumption": 21,
+        "register-aligned:personification": 4
+      },
+      "control_classifications": {
+        "neutral": 22,
+        "register-aligned:personification": 3
+      }
+    },
+    {
+      "id": "SAW_03",
+      "register": "sawmill/body",
+      "active_words": {
+        "center": 10,
+        "core": 8,
+        "weakness": 5,
+        "knot": 1,
+        "heart": 1
+      },
+      "control_words": {
+        "heart": 14,
+        "fault": 4,
+        "core": 3,
+        "vein": 2,
+        "weakness": 1,
+        "center": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 1,
+      "active_literal": 0,
+      "active_neutral": 24,
+      "active_aligned_rate": 0.04,
+      "control_aligned": 16,
+      "control_literal": 0,
+      "control_neutral": 9,
+      "control_aligned_rate": 0.64,
+      "effect": -0.6,
+      "active_classifications": {
+        "neutral": 24,
+        "register-aligned:body": 1
+      },
+      "control_classifications": {
+        "register-aligned:body": 16,
+        "neutral": 9
+      }
+    },
+    {
+      "id": "SEA_01",
+      "register": "ocean/consumption",
+      "active_words": {
+        "roar": 11,
+        "swallow": 6,
+        "rage": 5,
+        "boil": 1,
+        "seethe": 1,
+        "rise": 1
+      },
+      "control_words": {
+        "breathe": 9,
+        "panic": 5,
+        "sway": 3,
+        "pulse": 2,
+        "swell": 2,
+        "ripple": 2,
+        "surge": 1,
+        "merge": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 22,
+      "active_literal": 0,
+      "active_neutral": 3,
+      "active_aligned_rate": 0.88,
+      "control_aligned": 9,
+      "control_literal": 0,
+      "control_neutral": 16,
+      "control_aligned_rate": 0.36,
+      "effect": 0.52,
+      "active_classifications": {
+        "register-aligned:personification": 11,
+        "register-aligned:consumption": 6,
+        "register-aligned:violence": 5,
+        "neutral": 3
+      },
+      "control_classifications": {
+        "neutral": 16,
+        "register-aligned:personification": 9
+      }
+    },
+    {
+      "id": "SEA_02",
+      "register": "ocean/violence",
+      "active_words": {
+        "raged": 25
+      },
+      "control_words": {
+        "howled": 25
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 25,
+      "active_literal": 0,
+      "active_neutral": 0,
+      "active_aligned_rate": 1.0,
+      "control_aligned": 25,
+      "control_literal": 0,
+      "control_neutral": 0,
+      "control_aligned_rate": 1.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "register-aligned:violence": 25
+      },
+      "control_classifications": {
+        "register-aligned:personification": 25
+      }
+    },
+    {
+      "id": "SEA_03",
+      "register": "ocean/body",
+      "active_words": {
+        "seams": 11,
+        "waterline": 9,
+        "bow": 4,
+        "rate": 1
+      },
+      "control_words": {
+        "seams": 25
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 0,
+      "active_literal": 13,
+      "active_neutral": 12,
+      "active_aligned_rate": 0.0,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "domain-literal": 13,
+        "neutral": 12
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "KIT_01",
+      "register": "kitchen/consumption",
+      "active_words": {
+        "was": 15,
+        "glowed": 9,
+        "contained": 1
+      },
+      "control_words": {
+        "glowed": 21,
+        "shelves": 3,
+        "contained": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 0,
+      "active_literal": 0,
+      "active_neutral": 25,
+      "active_aligned_rate": 0.0,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "neutral": 25
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "KIT_02",
+      "register": "kitchen/body",
+      "active_words": {
+        "sliced": 23,
+        "gleamed": 1,
+        "glided": 1
+      },
+      "control_words": {
+        "glided": 24,
+        "flowed": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 23,
+      "active_literal": 0,
+      "active_neutral": 2,
+      "active_aligned_rate": 0.92,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.92,
+      "active_classifications": {
+        "register-aligned:cutting": 23,
+        "neutral": 2
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "SUR_01",
+      "register": "surgery/cutting",
+      "active_words": {
+        "edge": 22,
+        "off": 2,
+        "away": 1
+      },
+      "control_words": {
+        "damage": 13,
+        "case": 6,
+        "fears": 3,
+        "scenario": 2,
+        "truth": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 22,
+      "active_literal": 0,
+      "active_neutral": 3,
+      "active_aligned_rate": 0.88,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.88,
+      "active_classifications": {
+        "register-aligned:cutting": 22,
+        "neutral": 3
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "SUR_02",
+      "register": "surgery/body-as-landscape",
+      "active_words": {
+        "muscle": 25
+      },
+      "control_words": {
+        "circuitry": 20,
+        "circuits": 5
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 0,
+      "active_literal": 25,
+      "active_neutral": 0,
+      "active_aligned_rate": 0.0,
+      "control_aligned": 0,
+      "control_literal": 25,
+      "control_neutral": 0,
+      "control_aligned_rate": 0.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "domain-literal": 25
+      },
+      "control_classifications": {
+        "domain-literal": 25
+      }
+    },
+    {
+      "id": "FOR_01",
+      "register": "forge/personification",
+      "active_words": {
+        "cool": 25
+      },
+      "control_words": {
+        "stiffen": 17,
+        "dry": 7,
+        "harden": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 0,
+      "active_literal": 0,
+      "active_neutral": 25,
+      "active_aligned_rate": 0.0,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "neutral": 25
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "FOR_02",
+      "register": "forge/body",
+      "active_words": {
+        "yielded": 20,
+        "hardened": 2,
+        "responded": 1,
+        "bent": 1,
+        "cooperated": 1
+      },
+      "control_words": {
+        "crystallized": 23,
+        "captured": 1,
+        "become": 1
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 20,
+      "active_literal": 0,
+      "active_neutral": 5,
+      "active_aligned_rate": 0.8,
+      "control_aligned": 0,
+      "control_literal": 0,
+      "control_neutral": 25,
+      "control_aligned_rate": 0.0,
+      "effect": 0.8,
+      "active_classifications": {
+        "register-aligned:war_submission": 20,
+        "neutral": 5
+      },
+      "control_classifications": {
+        "neutral": 25
+      }
+    },
+    {
+      "id": "FOR_03",
+      "register": "forge/consumption",
+      "active_words": {
+        "roared": 25
+      },
+      "control_words": {
+        "screamed": 23,
+        "roared": 2
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 25,
+      "active_literal": 0,
+      "active_neutral": 0,
+      "active_aligned_rate": 1.0,
+      "control_aligned": 25,
+      "control_literal": 0,
+      "control_neutral": 0,
+      "control_aligned_rate": 1.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "register-aligned:personification": 25
+      },
+      "control_classifications": {
+        "register-aligned:personification": 25
+      }
+    },
+    {
+      "id": "CROSS_01",
+      "register": "sawmill/death",
+      "active_words": {
+        "quiet": 16,
+        "silent": 9
+      },
+      "control_words": {
+        "silent": 13,
+        "quiet": 12
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 25,
+      "active_literal": 0,
+      "active_neutral": 0,
+      "active_aligned_rate": 1.0,
+      "control_aligned": 25,
+      "control_literal": 0,
+      "control_neutral": 0,
+      "control_aligned_rate": 1.0,
+      "effect": 0.0,
+      "active_classifications": {
+        "register-aligned:death": 25
+      },
+      "control_classifications": {
+        "register-aligned:death": 25
+      }
+    },
+    {
+      "id": "CROSS_02",
+      "register": "ocean/death",
+      "active_words": {
+        "calm": 22,
+        "glass": 2,
+        "still": 1
+      },
+      "control_words": {
+        "silent": 17,
+        "quiet": 8
+      },
+      "active_n": 25,
+      "control_n": 25,
+      "active_aligned": 1,
+      "active_literal": 0,
+      "active_neutral": 24,
+      "active_aligned_rate": 0.04,
+      "control_aligned": 25,
+      "control_literal": 0,
+      "control_neutral": 0,
+      "control_aligned_rate": 1.0,
+      "effect": -0.96,
+      "active_classifications": {
+        "neutral": 24,
+        "register-aligned:death": 1
+      },
+      "control_classifications": {
+        "register-aligned:death": 25
+      }
+    }
+  ]
+}

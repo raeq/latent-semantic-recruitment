@@ -1,0 +1,308 @@
+{
+  "model": "gpt-4o",
+  "family": "OpenAI",
+  "n_passages": 20,
+  "failures": 0,
+  "total_orphaned": 4,
+  "total_earned": 4,
+  "passages_with_orphan": 3,
+  "orphan_rate": 0.2,
+  "flag_rate": 0.15,
+  "fisher_one_sided_p": 0.2237994563575979,
+  "fisher_two_sided_p": 0.3087016342830329,
+  "cohens_h": 0.392682988603482,
+  "ci_lower": 0.032070938497781754,
+  "ci_upper": 0.3789268247783184,
+  "pooled_stats": {
+    "total_llm_n": 80,
+    "total_llm_flagged": 20,
+    "pooled_rate": 0.25,
+    "fisher_one_sided_p": 0.015420826397731504,
+    "fisher_two_sided_p": 0.022147600239600652,
+    "cohens_h": 0.6444817096159363,
+    "power": 0.8785459428048725
+  },
+  "passages": [
+    {
+      "id": "gpt4o_bat_1",
+      "domain": "battlefield_surgery",
+      "model": "gpt-4o",
+      "text": "Amidst the chaotic symphony of war, the field surgeon worked with relentless precision. Smoke lingered in the air, casting a grimy veil over the makeshift tent where he toiled. Bloodied uniforms laid discarded, their occupants moaning softly on crude stretchers. The surgeon, with sleeves rolled high, exposed sinews taut from relentless labor. His hands, clad in once-white gloves now stained crimson, moved swiftly. He bent over a young soldier whose shoulder was a mangled mess. Shrapnel had embedded itself deeply, its metallic glint barely visible. Carefully, he used a pair of forceps, fingers steady despite the cacophony outside. The glint of steel against the dying light seemed to guide him. Tweezers plucked the offending fragments, each drop of blood a testament to the surgeon's skill. On a nearby table, scalpels and scissors lay neatly arranged, their sharp edges promising salvation or despair. He sutured hastily, the needle weaving through flesh with practiced efficiency. The wound closed under his command, a makeshift healing in the heart of destruction. A flash of movement demanded attention. Another stretcher arrived, the victim's leg a shattered ruin of bone and muscle. The surgeon, unwavering, reached for the bone saw, his mind a fortress against the horrors he serviced. Focusing only on the task at hand, he bore the weight of their lives, every incision a race against time.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 7,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bat_2",
+      "domain": "battlefield_surgery",
+      "model": "gpt-4o",
+      "text": "Amidst the smoke and chaos, the field surgeon worked relentlessly, surrounded by the cacophony of battle. His hands, steady but stained with blood, moved with precision and haste. The tent was dimly lit, shadows flickering against the canvas walls from the hanging lanterns. Soldiers lay on improvised cots, their uniforms torn and soaked with sweat and blood. The surgeon examined a soldier with a deep gash across his abdomen. The wound gaped open, the edges ragged and seeped with dark blood. Quickly, he threaded a needle, its glint catching the dim light, and began stitching, every pull precise to prevent further bleeding. Another soldier, moaning softly, bore a shrapnel wound in his thigh. The surgeon retrieved a metal forceps, its cold steel a stark contrast against the warmth of the soldier\u2019s flesh. Carefully, he extracted the twisted metal fragment, now slick with blood, and dropped it with a metallic clink into a nearby tray. Sweat dripped from his brow as he moved to the next patient, washing his hands in a basin of murky water. His tools, laid carefully on a cloth beside him, gleamed ominously. Despite the overwhelming odds and the ceaseless stream of wounded, the surgeon\u2019s focus never wavered, his efforts a lifeline in the midst of desolation.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 8,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bat_3",
+      "domain": "battlefield_surgery",
+      "model": "gpt-4o",
+      "text": "Amidst the cacophony of the battle, the field surgeon worked with steadfast precision. Smoke and dust filled the air as he navigated the crowded tent, a makeshift sanctuary for the wounded. The stench of blood and antiseptic mingled, an omnipresent reminder of the urgency. He moved swiftly between patients, his hands steady despite the chaos surrounding him. One soldier lay on the cot, a deep shrapnel wound carving through his thigh. The surgeon swiftly assessed the damage, reaching for his instruments\u2014a gleaming scalpel, forceps, and needle threaded with silk. He cut away the torn fabric and flesh, his hands methodical, movements precise, working to extract the jagged metal fragment lodged deep within the muscle. Blood pooled, staining his hands as he staunched the flow with practiced pressure. Another groaned nearby, blood seeping through makeshift bandages wrapped around his abdomen. The surgeon\u2019s hands flew to the drawer for sutures once more, fingers deftly weaving the tightest of stitches. His brow furrowed, sweat dripped down his temples as he worked. Bruises, cuts, and burns bore testament to the soldiers' bravery, a tumultuous canvas of human resilience. The surgeon, entrenched in his duty, offered them hope amid despair, his instruments as vital as his own resolve.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 7,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bat_4",
+      "domain": "battlefield_surgery",
+      "model": "gpt-4o",
+      "text": "Amidst the chaos of battle, the field surgeon worked tirelessly in a dilapidated tent. The air was thick with the metallic scent of blood mingled with earth and gunpowder. On a makeshift table lay a soldier, his leg torn open by shrapnel. The surgeon, bathed in sweat despite the chilling air, meticulously sterilized his instruments, each one gleaming briefly under the flickering lamplight. He assessed the gaping wound swiftly, noting the jagged edges and the steady pulse of dark blood. A pair of forceps in his hand probed cautiously, seeking out metal fragments lodged deep within torn muscle. The soldier's skin was pale, a stark contrast to the crimson flow staining the cloth under him. With unwavering focus, the surgeon extracted the shrapnel, his fingers steady, guided by years of experience under fire. A needle and catgut in hand, he sutured the wound, each stitch precise, a lifeline drawn through ravaged flesh. The surgeon's hands moved with practiced efficiency, bandaging the leg, binding it tightly to stem the blood loss. Around him, the tent filled with the moans of the injured, but his attention remained fixed, saving lives one steady motion at a time, amidst the relentless turmoil outside.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 9,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bla_1",
+      "domain": "blacksmith",
+      "model": "gpt-4o",
+      "text": "The blacksmith stood before his roaring forge, the heart of his workshop. Flames danced hungrily around the stacked coals, casting flickering shadows against the walls. The heat radiated outward, a fierce wave that warmed his face and set sweat trickling down his brow. In his hands rested a simple bar of steel, cold and unyielding, ready to be transformed. He plunged the metal into the fiery mouth of the forge, watching as its color deepened from dull grey to a vivid orange. The air hummed with potential as he withdrew the softened steel, laying it across the anvil with practiced precision. Each mighty swing of his hammer rang out like a clarion call, a rhythmic symphony of strength and skill. Sparks erupted with each strike, a cascade of miniature fireworks dancing around his boots. With every blow, the blade began to take shape, its edges smoothing under the relentless force. He turned the metal, scrutinizing its surface for imperfections before returning it to the flames. The cycle continued, a dance of fire and steel, until the blade was quenched and cooled, a gleaming testament to the blacksmith\u2019s mastery. He surveyed his work with satisfaction, seeing not just a weapon, but the culmination of dedication forged in sweat and fire.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 7,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bla_2",
+      "domain": "blacksmith",
+      "model": "gpt-4o",
+      "text": "The blacksmith stood before his roaring forge, the heat radiating an almost unbearable intensity. Sweat tricked down his brow as he grasped the glowing billet of steel with his tongs, its orange hue mirrored in his focused eyes. The rhythmic clang of hammer on metal echoed through the dimly lit workshop, sending sparks flying like tiny, momentary stars that danced and faded into ash. Each strike was deliberate, the culmination of years of practiced skill and instinct. Before him, the anvil stood solid and unwavering, its surface scarred from countless creations. He turned the metal over with a skilled flick of his wrist, inspecting the nascent blade as it took shape beneath his relentless hammering. The steel gradually succumbed to his will, flattening, stretching, and tapering into a form that whispered of purpose and precision. He heated the blade once more, plunging it into the heart of the forge, where the coals glowed an infernal red. The metal sang as it entered, a sizzle and steam rose anew\u2014a communion of elements forged into harmony. He returned it to the anvil, striking with renewed vigor until the blade reflected the fire back at itself, alive and vibrant with potential.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 5,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bla_3",
+      "domain": "blacksmith",
+      "model": "gpt-4o",
+      "text": "The blacksmith stood before the roaring forge, its intense heat radiating waves that shimmered in the air. His bare arms glistened with sweat as he worked, sinews flexing with each purposeful movement. In the dim glow, the forge's heart pulsed like a living entity, a mesmerizing dance of orange and yellow flames that devoured the coal with a relentless appetite. He plunged the iron rod into the inferno, watching as the metal turned from a dull gray to a fierce, luminescent orange. The transformation heralded readiness, and he swiftly retrieved the heated rod with tongs that clinked and groaned under the pressure. The smith laid it upon the anvil, its surface pockmarked from years of work. The hammer in his hand came down with rhythmic certainty, each strike sending a cascade of sparks into the air. The metal sang under the force, bending to his will, its form slowly emerging from the initial formlessness. With each deliberate blow, he shaped the blade, drawing from it an essence long hidden within the hardened exterior. Hot, curling wisps of smoke rose as he repeatedly reheated and hammered, tempering its strength, crafting a weapon both beautiful and deadly.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 5,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_bla_4",
+      "domain": "blacksmith",
+      "model": "gpt-4o",
+      "text": "The blacksmith stood before the roaring forge, its orange flames casting a flickering glow across the dim workshop. Coals crackled and spat tiny embers into the air, suffusing the space with a dry, metallic heat. He thrust a rod of raw iron into the heart of the blaze, watching as it transformed from dull gray to a vibrant cherry red. Once the metal reached a malleable state, he withdrew it, placing it decisively onto the anvil. Each strike of his hammer resonated with a sharp, rhythmic clang, sending out sparks that danced before settling as harmless ash upon the stone floor. The metal began to take shape, gradually bending to the will of his seasoned arm as he deftly manipulated it with a blackened pair of tongs. Rivulets of sweat traced paths down his furrowed brow, cooling rapidly in the ambient chill away from the fire. His gaze remained intense, focused entirely on the blade emerging slowly under his skilled hands. With practiced precision, he reheated the metal, drawing it from the forge again and again, refining its edge with each successive pass. Quenching the blade in a trough of oil, he noted the steam and sizzle before withdrawing a glistening, expertly crafted blade from the plume of hissing condensation.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 6,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_kit_1",
+      "domain": "kitchen_fire",
+      "model": "gpt-4o",
+      "text": "The clamor of pots and pans echoed through the bustling kitchen as Luis moved deftly between the gleaming stainless steel countertops. The heat was nearly unbearable, radiating from the industrial stoves and fryers that lined the narrow workspace. Sweat trickled down his forehead, mingling with the steam that rose in thick clouds from bubbling sauces. The pervasive aroma of garlic and onions intertwined with the sizzling scent of seared meat. He maneuvered around colleagues, each engrossed in their own flurry of tasks. A sharp hiss accompanied the release of compressed steam from a pressure cooker, adding to the cacophony of sounds. Luis reached above the flickering flames, retrieving a blistering-hot pan and deftly flipping its contents. The searing heat on his face intensified, but his focus remained unbroken, eyes scanning the order slips pinned above the pass. With precise movements, he plated a perfectly cooked steak, adding a dollop of butter that melted instantly in the ambient heat. The clang of the bell signaled the dish\u2019s completion. Behind him, the dishwasher clattered open and shut, a constant rhythm as plates were recycled back into the chaos. Every action was a choreographed dance of necessity, set against a backdrop of relentless pressure and heat.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 0,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_kit_2",
+      "domain": "kitchen_fire",
+      "model": "gpt-4o",
+      "text": "The clatter of pots and pans reverberated through the confined space of the restaurant kitchen, as chefs navigated the narrow walkways with practiced precision. Sweat glistened on their foreheads, a testament to the sweltering heat emanating from the myriad of stoves and ovens, all ablaze. The air was thick with the scent of sizzling garlic and saut\u00e9ing onions, mingling with the occasional waft of freshly baked bread, yet masked slightly by the perpetual hum of the overhead exhaust fans. Steam rose from boiling pots, condensing into droplets that clung to the stainless-steel surfaces like fleeting jewels. The rhythmic sizzle of meats hitting the grill punctuated the chaotic symphony, while the frantic ticking of the kitchen timer set an unyielding pace. Flames leapt and danced under the watchful eyes of the cooks, who wielded their utensils with relentless energy. A chef's knife sliced through vegetables with swift, decisive motions, its edge gleaming under the fluorescent lights. Against the backdrop of the bustling scene, orders piled high on slips of paper, fluttering with each gust of warm air as the line cook deftly assembled plates with the precision of an artist, creating harmonious compositions of varied textures and flavors. The kitchen danced in its own rhythm, a complex ballet fueled by adrenaline and expertise.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_kit_3",
+      "domain": "kitchen_fire",
+      "model": "gpt-4o",
+      "text": "The dinner rush hit the kitchen like a tidal wave. Metal clanged against metal as pots and pans jostled for space on the stove. Sweat beaded on the cooks' foreheads, mixing with the steam that rose from the boiling pots and sizzling pans. The heat radiated from the ovens, saturating the air and clinging to their skin like a second layer. Overhead, the exhaust fans hummed tirelessly, striving to siphon away the relentless warmth. Flames flared beneath saut\u00e9 pans, the blue and orange tongues licking the pan's underbellies with fervor. Each cook moved with precision, their fingers nimble as they chopped, stirred, and plated with rapid-fire efficiency. The rhythmic chop-chop of knives slicing through onions and carrots created a percussive backdrop to the culinary symphony. Behind the stoves, greasy aprons bore testament to the battle with bubbling sauces and sizzling meats. Steam clouded the narrow walkways, and the stainless-steel counters gleamed under the harsh fluorescent lights. Every surface, warm to the touch, radiated the day's accumulated energy. Juggling tickets, the expeditor\u2019s hands flew from order to order, eyes scanning each plate for perfection. The kitchen pulsed with an urgent energy, a well-oiled machine operating in fevered synchrony to meet the demand beyond its swinging doors.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 2,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_kit_4",
+      "domain": "kitchen_fire",
+      "model": "gpt-4o",
+      "text": "The kitchen buzzed with frenetic energy as the dinner rush descended. Heat radiated from every direction, emanating from the industrial-sized ovens and sizzling stovetops. Steam billowed up, momentarily clouding vision as sweat beaded on foreheads and dripped down necks. The clang of pots and pans rose above the rhythmic slice of knives against chopping boards. The air was thick, not just with humidity, but with the savory aroma of garlic and herbs marrying with searing meats. Metallic tablets clattered around the cooks as they navigated the narrow aisles, deftly avoiding collisions while focusing intently on their tasks. The grill hissed angrily, flames licking up beneath perfectly spaced steaks. A chef\u2019s hands moved in a blur, flipping skillets with practiced ease, sending ingredients somersaulting into the air before settling perfectly back into the pan. The incessant whir of the industrial fan fought to push out the heat, but against the toil of the kitchen, its efforts seemed futile. Amid the chaos, precision was key. Garnishes were placed with meticulous care, sauces drizzled in sweeping curves, plates wiped clean of errant smudges. Every movement was purposeful, part of an unspoken dance, as each cook worked in harmony to ensure every dish was a masterpiece amidst the swirling chaos.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_oce_1",
+      "domain": "ocean_storm",
+      "model": "gpt-4o",
+      "text": "The fishing boat rocked violently amidst the raging ocean storm. Dark clouds loomed overhead, blocking out any trace of sunlight. The vessel's wooden hull creaked and groaned, each wave a formidable wall of water that sent it lunging and plunging through the tumultuous sea. Gusts of wind howled mercilessly, tearing at the sails that flapped frantically against the mast. The deck was slick, a treacherous landscape of saltwater and rain. Crew members moved with cautious urgency, their rain-soaked slickers clinging to their bodies. Faces, set with grim determination, strained against the wind as they secured loose equipment and tightened ropes, their hands raw from the biting cold. The scent of salt and fear hung heavy in the air. The ocean was a furious grey, churning with white frothy peaks that crashed against the boat's sides, sending sprays of icy water over the men. The rhythmic clanging of the ship\u2019s bell resonated ominously with each swell. Eyes squinted against the stinging rain, their gaze fixed on the horizon, searching for the promise of calm. Each movement required precision; one wrong step on the slick surface could spell disaster. They battled the storm, a testament to human resilience against nature's relentless fury.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 4,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_oce_2",
+      "domain": "ocean_storm",
+      "model": "gpt-4o",
+      "text": "The fishing boat rocked violently against the relentless waves, its wooden frame groaning with each powerful surge. The storm had taken them by surprise, dark ominous clouds rolling in swiftly and turning the sky into a tumultuous canvas of swirling greys. Rain lashed down in sheets, drenching the deck and making it slick and treacherous underfoot. The wind howled, a constant scream that nearly drowned out the sounds of crashing water and straining wood. The boat pitched and rolled, its bow cutting through the towering waves in a desperate battle to stay afloat. The crew moved with frantic precision, their rain-slicked foul-weather gear glistening under flashes of lightning. They clung to the rigging, knuckles white, as they worked to secure loose equipment. Salt spray stung their faces as they braced against the wind, muscles taut, every movement a fight against nature\u2019s fury. The ocean was a churning maelstrom, waves rising like liquid mountains, their peaks frothing like angry beasts. Visibility was reduced to mere feet, everything beyond shrouded in a blur of rain and sea spray. Despite the chaos, the crew's determination didn't falter, their eyes fixed on the horizon, hoping for a break in the storm's ferocity.",
+      "orphaned": 1,
+      "earned": 1,
+      "literal_filtered": 2,
+      "orphan_details": [
+        {
+          "word": "scream",
+          "score": 0.8181818181818182,
+          "fields": [
+            "personification"
+          ],
+          "sentence": "The wind howled, a constant scream that nearly drowned out the sounds of crashing water and straining wood."
+        }
+      ],
+      "earned_details": [
+        {
+          "word": "angry",
+          "score": 0.39999999999999997,
+          "fields": [
+            "personification"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpt4o_oce_3",
+      "domain": "ocean_storm",
+      "model": "gpt-4o",
+      "text": "The fishing boat lurched violently with each towering wave, its hull creaking ominously beneath the relentless assault of the storm. Dark, churning seas stretched in every direction, merging seamlessly with the leaden sky. Sheets of rain battered the deck, the icy droplets stinging the faces of the crew as they clung desperately to the railings. The wind howled like a wild beast, tearing at their slickers and whipping salt-laden spray into their eyes. The vessel's engine groaned in protest, its metallic rhythm nearly drowned by the cacophony of crashing waves. The crew moved with practiced urgency, their boots sloshing through the waterlogged deck as they secured loose equipment and checked the lines. Hands raw and knuckles white, they tightened their grips with grim determination against the unpredictable lurches of the boat. Towering swells lifted the boat high before sending it plunging into the valleys below, the tumultuous motion threatening to capsize it with each violent descent. Visibility was a mere illusion, obscured by the heavy rain and spray. Every muscle of the seasoned crew strained in coordinated effort, battling both the elements and mounting fatigue. Together, they kept the boat's nose toward the wind, a fragile fortress amid the ocean's fury.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 2,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_oce_4",
+      "domain": "ocean_storm",
+      "model": "gpt-4o",
+      "text": "The fishing boat lurched violently with the relentless pounding of the waves, each swell more menacing than the last. The vessel, a sturdy albeit weatherworn testament to many years at sea, creaked under the strain, its wooden boards groaning with every forceful collision against the turbulent ocean. Thick ropes, slickened with salty spray, quivered under the pressure, while the wind howled with a ferocity that sent shivers down the spine of even the most seasoned crew members. Heaving decks were awash with seawater, as torrents continuously swept over the railing, threatening to drag anything unsecured into the churning depths. The crew, clad in bright, waterproof gear now dulled by the gloom of the storm, struggled to maintain their balance, each movement deliberate and measured. Boots sloshed through the incessant cascade, gripping onto any available handhold to prevent being cast into the merciless chaos surrounding them. The sky, an angry swirl of charcoal clouds, cast an eerie pallor over the scene, while the oppressive roar of the storm drowned out all but the booming crashes of water against hull. Every fiber of their being was attuned to the rhythm of survival, a desperate dance to keep the beleaguered craft afloat as nature unleashed its fury.",
+      "orphaned": 2,
+      "earned": 0,
+      "literal_filtered": 3,
+      "orphan_details": [
+        {
+          "word": "angry",
+          "score": 0.8518518518518517,
+          "fields": [
+            "personification"
+          ],
+          "sentence": "The sky, an angry swirl of charcoal clouds, cast an eerie pallor over the scene, while the oppressive roar of the storm "
+        },
+        {
+          "word": "roar",
+          "score": 0.8518518518518517,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "The sky, an angry swirl of charcoal clouds, cast an eerie pallor over the scene, while the oppressive roar of the storm "
+        }
+      ],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_saw_1",
+      "domain": "sawmill",
+      "model": "gpt-4o",
+      "text": "The hum of the sawmill resonated through the crisp morning air, a symphony of machinery and purpose. Giant saw blades, sharp as razors, whirred relentlessly, slicing through thick logs with unyielding precision. Dust particles danced in the sunlight, a fine mist of sawdust that clung to every surface and settled in the crevices of the workers\u2019 clothes. He moved with practiced efficiency, each step purposeful amidst the controlled chaos. His boots crunched on the wooden floor, worn and scuffed from years of steady use. The air was rich with the scent of freshly cut timber, a blend of pine and oak, earthy and invigorating. He loaded hefty logs onto the conveyor belt, muscles straining under the weight, yet performing the task with an effortless grace borne of routine. The rhythmic clunk of logs being positioned was a familiar cadence, comforting in its repetition. He wielded a timber hook with deft hands, guiding the unruly pieces of wood into precise alignment. The machinery groaned and vibrated, its steady rhythm a testament to the complex symphony of cogs and wheels hidden beneath its hulking metal exterior. As sawdust gathered at his feet, the cycle of transformation continued, wood reshaped into planks, boards, and beams, ready to become something greater.",
+      "orphaned": 0,
+      "earned": 0,
+      "literal_filtered": 2,
+      "orphan_details": [],
+      "earned_details": []
+    },
+    {
+      "id": "gpt4o_saw_2",
+      "domain": "sawmill",
+      "model": "gpt-4o",
+      "text": "The roar of machinery filled the sawmill, a deafening symphony of mechanical power slicing through the air. Huge circular saws spun relentlessly, their sharp teeth biting into thick logs with precision. The floor vibrated beneath heavy boots as workers maneuvered around the vast space, each movement deliberate and practiced. Beams of sunlight cut through dusty air, illuminating particles of sawdust that floated like golden snowflakes around the bustling activity. Stacks of timber waited in neat rows, their sharp, resinous scent mingling with the oily aroma of machine grease. A worker hefted a rough log onto the conveyor, muscles straining, veins standing out beneath his skin. The log rolled forward, disappearing into the maw of the saw, emerging moments later in perfectly measured planks, edges smooth and uniform. Nearby, another operator adjusted a dial, fine-tuning the blade's speed, eyes narrowed and focused, hands steady and experienced. Sawdust accumulated in soft piles beneath the machinery, occasionally swept up by shuffling feet. The rhythmic churning of the saws, the constant hum of conveyor belts, and the periodic clatter of freshly cut wood hitting polished metal, created a steady, industrious backdrop. Through it all, the workers remained focused, a well-oiled, living part of the complex, ever-pulsing machine.",
+      "orphaned": 0,
+      "earned": 1,
+      "literal_filtered": 4,
+      "orphan_details": [],
+      "earned_details": [
+        {
+          "word": "roar",
+          "score": 0.5242424242424243,
+          "fields": [
+            "water_weather"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpt4o_saw_3",
+      "domain": "sawmill",
+      "model": "gpt-4o",
+      "text": "He worked long hours in the sawmill, where the air was thick with the scent of freshly cut timber mingling with the acrid tang of machine oil. Massive circular saws hummed and whirred, their serrated edges gleaming under the harsh fluorescent lights. Stacks of logs awaited transformation, their bark rough and splintered, bearing the earthy aroma of pine and oak. His hands, calloused and stained by the wood's resin, moved deftly across levers and switches, guiding the lumber through the relentless jaws of the saws. He watched as the blades bit into the logs, sending a shower of sawdust into the air, the fine particles settling into his hair and clothing like a gritty second skin. The rhythmic clatter of the conveyor belts carried the newly milled planks away, their surfaces smooth to the touch yet lined with the delicate grains and knots that spoke of the trees' long histories. The machines groaned and rumbled, a symphony of industry, while he toiled amidst the din, muscles straining against the weight of the wood. Each day he labored, sculpting raw nature into something useful, the sawmill a world of constant motion and creation.",
+      "orphaned": 0,
+      "earned": 1,
+      "literal_filtered": 1,
+      "orphan_details": [],
+      "earned_details": [
+        {
+          "word": "bit",
+          "score": 0.39607843137254894,
+          "fields": [
+            "consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpt4o_saw_4",
+      "domain": "sawmill",
+      "model": "gpt-4o",
+      "text": "In the vast expanse of the sawmill, heavy machinery hummed a mechanical symphony, their metallic bodies gleaming under fluorescent lights. The scent of fresh pine mingled with the sharp, acrid odor of sawdust, which floated in the air like a fine mist. Massive saw blades whirred with intimidating speed, their serrated edges slicing effortlessly through thick logs. The rhythmic thud of wood meeting steel reverberated across the floor, a testament to the raw power of the machines. The worker moved with practiced precision, clad in sturdy boots and protective gear. His hands, rough and calloused, deftly maneuvered the lumber into position, ensuring each piece met the saw's teeth at the perfect angle. He wore ear protection against the constant roar, his gaze focused, scanning for any anomalies in the wood's grain. Occasionally, he paused to brush away stray wood shavings clinging to his uniform, remnants of the day's labor. Conveyors carried the cut planks along their tracks, the sound of their motors blending seamlessly into the cacophony. He marked the finished boards with quick strokes of chalk, the white lines stark against the dark, polished surface. As the sun dipped lower, the day's light filtered through high windows, casting long shadows that danced in time with the machinery's relentless pace.",
+      "orphaned": 1,
+      "earned": 0,
+      "literal_filtered": 2,
+      "orphan_details": [
+        {
+          "word": "roar",
+          "score": 0.7757936507936508,
+          "fields": [
+            "water_weather"
+          ],
+          "sentence": "He wore ear protection against the constant roar, his gaze focused, scanning for any anomalies in the wood's grain."
+        }
+      ],
+      "earned_details": []
+    }
+  ],
+  "power": 0.3684140531435317,
+  "supplementary_passages_added": 4
+}
