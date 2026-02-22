@@ -78,7 +78,7 @@ The over-indexing hypothesis predicts that LLMs will produce sophisticated figur
 
 \textbf{Lack of preparation.} The context is scored for signposting markers: simile constructions, explicit frame-setting, tonal shifts (sentence-length ratio $> 2.5$:1), and figurative density in adjacent sentences ($> 0.15$). Score ranges from 1.0 (fully unprepared) to 0.0 (fully prepared).
 
-A word's orphanhood score is the arithmetic mean of its three test scores. Classification threshold: 0.6 (set a priori, not optimized on test data).
+A word's orphanhood score is the arithmetic mean of its three test scores. A word exceeding 0.6 is classified as \emph{orphaned}; words below that threshold are classified as \emph{structurally integrated} (the figurative construction participates in the surrounding prose architecture). The threshold was set a priori, not optimized on test data.
 
 \subsection{Semiotic Interpretation}
 

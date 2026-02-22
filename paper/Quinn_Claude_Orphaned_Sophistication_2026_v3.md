@@ -108,7 +108,7 @@ We define **orphaned sophistication** as a figurative construction that satisfie
 
 3. **Lack of preparation.** The surrounding context is scored for signposting markers that announce or contextualize the figurative construction: simile constructions ("like a," "as if," "as though"), explicit frame-setting ("was a," "felt like"), tonal shifts (sentence-length ratio > 2.5:1), and figurative density in adjacent sentences (> 0.15). The preparation score is 1.0 (fully unprepared) when no markers are present, and decreases toward 0.0 as more signposting is detected.
 
-Each of the three tests produces a continuous score between 0.0 (fully supported) and 1.0 (fully orphaned), as detailed in Appendix A. A word's orphanhood score is the arithmetic mean of its three test scores. A word is classified as orphaned if and only if this score exceeds 0.6. This threshold was set a priori based on the theoretical framework (requiring failure on a majority of structural support dimensions), not optimized on test data.
+Each of the three tests produces a continuous score between 0.0 (fully supported) and 1.0 (fully orphaned), as detailed in Appendix A. A word's orphanhood score is the arithmetic mean of its three test scores. A word is classified as *orphaned* if and only if this score exceeds 0.6; words below that threshold are classified as *structurally integrated* (the figurative construction participates in the surrounding prose architecture). This threshold was set a priori based on the theoretical framework (requiring failure on a majority of structural support dimensions), not optimized on test data.
 
 ### 3.4 Semiotic Interpretation
 
