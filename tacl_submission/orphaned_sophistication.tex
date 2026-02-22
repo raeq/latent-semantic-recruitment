@@ -144,7 +144,7 @@ Sonnet (primary) & 20 & 9 & 7/20 & 35.0\% \\
 
 The single human detection was Conrad's ``the rudder would bite again,'' a nautical usage where ``bite'' is arguably domain-literal. In the 5 non-professional passages, zero detections occurred.
 
-The detector v2 analysis (unjustified figurative polysemy, before orphanhood filtering) showed a rate ratio of 18.8$\times$ (LLM 0.750 per passage vs.\ human 0.040), Fisher's $p = 0.001$, Cohen's $h = 1.69$. The v3 orphanhood model correctly reclassified 6 of the 15 v2 detections as ``earned'': cases where the model had accidentally produced chain connectivity (e.g., ``bit'' appearing near ``teeth'' or ``hungry'').
+The detector v2 analysis (unjustified figurative polysemy, before orphanhood filtering) showed a rate ratio of 18.8$\times$ (LLM 0.750 per passage vs.\ human 0.040), Fisher's $p = 0.001$, Cohen's $h = 1.69$. The v3 orphanhood model correctly reclassified 6 of the 15 v2 detections as ``integrated'': cases where the model had accidentally produced chain connectivity (e.g., ``bit'' appearing near ``teeth'' or ``hungry'').
 
 \subsection{Qualitative Analysis}
 
@@ -167,7 +167,7 @@ Word & Register & Score & Iso & Chain & Prep \\
 \label{tab:l06}
 \end{table}
 
-By contrast, human passages employing figurative language do so within explicitly prepared frames. The non-professional sawmill passage (``Life shaves pieces of your health off\ldots{} Bertha takes that, too'') signposts the saw-as-life metaphor (``That's life, that is''), develops it across multiple sentences, and connects to a chain of related vocabulary. The detector correctly identifies this as earned.
+By contrast, human passages employing figurative language do so within explicitly prepared frames. The non-professional sawmill passage (``Life shaves pieces of your health off\ldots{} Bertha takes that, too'') signposts the saw-as-life metaphor (``That's life, that is''), develops it across multiple sentences, and connects to a chain of related vocabulary. The detector correctly classifies this as structurally integrated.
 
 \subsection{Cross-Model and Cross-Family Validation}
 

@@ -120,7 +120,7 @@ When Conrad writes "the rudder would bite," the word performs something closer t
 
 This distinction maps onto our three orphanhood tests: isolation measures sustained vs. anomalous sophistication; chain connectivity measures productive labor vs. standalone activation; preparation measures deliberate register transition vs. its absence.
 
-A necessary caveat arises here. A sufficiently long LLM-generated text may, through stochastic density alone, produce passages that score well on all three orphanhood dimensions: a figurative word may happen to land near another word in the same register field (chain), in a passage where neighboring sentences also contain figurative language (isolation), after a sentence that happens to contain a simile marker (preparation). Such a passage would be classified as "earned" by our detector. But in Barthes's framework, *signifiance* is not merely the structural presence of chain and preparation; it is the *intentionality of the labor*. A monkey at a typewriter may accidentally produce a sonnet, but the sonnet does not perform *signifiance* because no productive labor generated it. Our detector cannot distinguish accidental structural coherence from intentional architectural control. It measures the necessary conditions for *signifiance* (structure is present) but not the sufficient condition (structure was produced through authorial labor). This limitation is why we describe the framework as identifying *orphaned* sophistication rather than *unearned* sophistication: the detector identifies the absence of structural support, not the absence of intent. The false negative case, where an LLM accidentally produces earned-looking prose, is a fundamental limitation of any structural detector operating without access to the generative process itself.
+A necessary caveat arises here. A sufficiently long LLM-generated text may, through stochastic density alone, produce passages that score well on all three orphanhood dimensions: a figurative word may happen to land near another word in the same register field (chain), in a passage where neighboring sentences also contain figurative language (isolation), after a sentence that happens to contain a simile marker (preparation). Such a passage would be classified as "integrated" by our detector. But in Barthes's framework, *signifiance* is not merely the structural presence of chain and preparation; it is the *intentionality of the labor*. A monkey at a typewriter may accidentally produce a sonnet, but the sonnet does not perform *signifiance* because no productive labor generated it. Our detector cannot distinguish accidental structural coherence from intentional architectural control. It measures the necessary conditions for *signifiance* (structure is present) but not the sufficient condition (structure was produced through authorial labor). This limitation is why we describe the framework as identifying *orphaned* sophistication rather than *unearned* sophistication: the detector identifies the absence of structural support, not the absence of intent. The false negative case, where an LLM accidentally produces integrated-looking prose, is a fundamental limitation of any structural detector operating without access to the generative process itself.
 
 We use this semiotic frame as an interpretive lens, not as a formal claim about Barthes's theory. The detection signal is empirical; the Barthesian vocabulary provides a useful language for describing what the signal captures.
 
@@ -201,7 +201,7 @@ The single human detection was Conrad's "the rudder would bite again," a nautica
 
 ### 5.2 Detector v3: Orphaned Sophistication (Experiment 8c)
 
-| Source | n | Orphaned words | Earned words | Passages with orphan |
+| Source | n | Orphaned words | Integrated words | Passages with orphan |
 |--------|---|----------------|-------------|---------------------|
 | Published human | 20 | 1 | 1 | 1/20 (5.0%) |
 | Non-professional human (RQ) | 5 | 0 | 0 | 0/5 (0%) |
@@ -212,7 +212,7 @@ The single human detection was Conrad's "the rudder would bite again," a nautica
 
 **Cohen's h = 0.86** (large effect).
 
-The v3 detector correctly reclassified 6 of the 15 v2 LLM detections as "earned": cases where the model had accidentally produced chain connectivity (e.g., "bit" appearing in a passage also containing "teeth" or "hungry," producing a chain score of 0.2). This demonstrates that the orphanhood model captures structural coherence, not merely polysemous density.
+The v3 detector correctly reclassified 6 of the 15 v2 LLM detections as "integrated": cases where the model had accidentally produced chain connectivity (e.g., "bit" appearing in a passage also containing "teeth" or "hungry," producing a chain score of 0.2). This demonstrates that the orphanhood model captures structural coherence, not merely polysemous density.
 
 ### 5.3 Cross-Model and Cross-Family Validation
 
@@ -257,7 +257,7 @@ The most striking LLM passage was L06 (sawmill domain, Sonnet Exp 8c), which con
 
 Four distinct register fields activated in a single passage. No chain connectivity between any of them. No preparation for any of them. Each is independently sophisticated; together they constitute four unearned figurative constructions in nine sentences.
 
-By contrast, the human passages that employ figurative language (e.g., RQ's sawmill passage: "Life shaves pieces of your health off... Bertha takes that, too") do so within explicitly prepared metaphorical frames. The saw-as-life metaphor is signposted ("That's life, that is"), developed across multiple sentences, and connects to a chain of related vocabulary. The detector correctly identifies this as earned.
+By contrast, the human passages that employ figurative language (e.g., RQ's sawmill passage: "Life shaves pieces of your health off... Bertha takes that, too") do so within explicitly prepared metaphorical frames. The saw-as-life metaphor is signposted ("That's life, that is"), developed across multiple sentences, and connects to a chain of related vocabulary. The detector correctly classifies this as structurally integrated.
 
 ### 5.5 Per-Domain Distribution
 
@@ -533,7 +533,7 @@ For each sentence S in passage P:
         orphan_score = mean(isolation, chain, preparation)
 
         If orphan_score > 0.6: ORPHANED
-        Else: EARNED
+        Else: INTEGRATED
 ```
 
 **Isolation scoring.** φ(s) = (register-active content words in s) / (content words in s). Isolation = min(1.0, (φ(s_target) − φ̄(neighbors)) / 0.2). A score of 0 results when the target density is at or below the neighbor mean. As the gap increases, the score scales linearly from 0 to 1, reaching its maximum when the gap meets or exceeds τ₁ = 0.2.
