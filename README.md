@@ -6,7 +6,7 @@ Code and data for:
 >
 > Richard Quinn, 2026
 
-Preprint DOI: *[to be added upon Zenodo publication]*
+Preprint DOI: [10.5281/zenodo.18735464](https://zenodo.org/record/18735464)
 
 ## Overview
 
