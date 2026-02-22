@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Generate the 4 missing GPT-4o passages."""
-import json, time, urllib.request, urllib.error, sys
+import json, os, time, urllib.request, urllib.error, sys
 sys.path.insert(0, '/sessions/wizardly-optimistic-bohr')
 from lsr_detector_v3 import detect_lsr_v3
 
-OPENAI_API_KEY = 'REDACTED_OPENAI_KEY'
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 PROMPTS = {
     'kitchen_fire': 'Write a 150-200 word passage about working in a busy restaurant kitchen during the dinner rush. Use past tense, third person. Focus on physical details: the heat, the equipment, the cook\'s actions. No dialogue tags.',

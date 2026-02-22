@@ -14,7 +14,7 @@ import sys
 import os
 
 # API setup
-API_KEY = "REDACTED_ANTHROPIC_KEY"
+API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 sys.path.insert(0, "/sessions/wizardly-optimistic-bohr")
 from lsr_detector_v3 import detect_lsr_v3

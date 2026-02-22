@@ -11,6 +11,7 @@ runs v3 detector on each, then compares to Anthropic and human baselines.
 """
 
 import json
+import os
 import time
 import sys
 import urllib.request
@@ -19,7 +20,7 @@ import urllib.error
 sys.path.insert(0, "/sessions/wizardly-optimistic-bohr")
 from lsr_detector_v3 import detect_lsr_v3
 
-OPENAI_API_KEY = "REDACTED_OPENAI_KEY"
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 OPENAI_URL = "https://api.openai.com/v1/chat/completions"
 
 # Same 5 domains, 4 passages each = 20 total

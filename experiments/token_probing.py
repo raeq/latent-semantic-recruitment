@@ -338,12 +338,9 @@ def save_incremental(all_results, model_filter):
 
 def run_probing(model_filter=None):
     """Run probing with fail-fast, circuit breakers, and incremental saves."""
-    ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY") or \
-        "REDACTED_ANTHROPIC_KEY"
-    OPENAI_KEY = os.environ.get("OPENAI_API_KEY") or \
-        "REDACTED_OPENAI_KEY"
-    GEMINI_KEY = os.environ.get("GEMINI_API_KEY") or \
-        "REDACTED_GEMINI_KEY"
+    ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
+    OPENAI_KEY = os.environ["OPENAI_API_KEY"]
+    GEMINI_KEY = os.environ["GEMINI_API_KEY"]
 
     models = [
         ("anthropic_sonnet", "Anthropic Sonnet 4", call_anthropic,

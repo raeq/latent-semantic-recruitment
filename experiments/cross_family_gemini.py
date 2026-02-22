@@ -8,6 +8,7 @@ independent model families.
 """
 
 import json
+import os
 import time
 import sys
 import urllib.request
@@ -16,7 +17,7 @@ import urllib.error
 sys.path.insert(0, "/sessions/wizardly-optimistic-bohr")
 from lsr_detector_v3 import detect_lsr_v3
 
-GEMINI_API_KEY = "REDACTED_GEMINI_KEY"
+GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
 
 
