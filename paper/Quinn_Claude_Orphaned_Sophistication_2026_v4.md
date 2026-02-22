@@ -457,13 +457,11 @@ We identify nine directions for future work, ordered from immediate empirical ex
 
 ## 8. Conclusion
 
-We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises, we argue, from training-weight over-indexing on exceptional exemplars in training data, causing models to produce locally sophisticated outputs without the structural architecture that would earn them. In the domain of literary prose, our automated detector achieves significant separation between human and LLM text across three independent model families (Fisher's p = 0.006, Cohen's h = 0.71, n = 125), with cross-family validation confirming the artifact in Anthropic, OpenAI, and Google models.
+We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural architecture that would justify them. In pooled analysis across three independent model families, our detector achieves significant separation between human and LLM text (Fisher's p = 0.006, Cohen's h = 0.71, n = 125).
 
-The detection signal is structural and interpretable. If the over-indexing hypothesis is correct, the signal is also inherent to the generation process and would resist removal without degrading output quality; testing this prediction is a priority (Section 7.8, item 7). The framework is diagnostic rather than merely discriminative: it identifies where the architecture is missing and what work would repair it. The core contribution is a reframing: the uncanny valley of AI prose is a structural coherence failure, not a lexical quality failure, and it is measurable. This connects computational linguistics, literary theory, and the distributional properties of training data.
+The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested (Section 7.8).
 
-The framework is, we believe, domain-agnostic in principle. The over-indexing hypothesis predicts that wherever training corpora over-represent exceptional exemplars, a structurally analogous pathology should emerge: locally brilliant outputs lacking the scaffolding that would make them structurally earned. We have demonstrated one instance of this in literary prose. Whether the principle generalizes to other domains remains an empirical question.
-
-The uncanny valley of AI prose is not that the machine writes badly. It is that the machine writes too well, in moments that have not been earned.
+The machine writes well. The architecture is missing.
 
 ## References
 
