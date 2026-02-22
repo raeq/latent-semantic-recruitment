@@ -162,7 +162,7 @@ We developed three successive detection instruments:
 
 **Detector v2 (unjustified figurative).** Introduced domain-literal filtering, personification detection, and metaphor signpost detection. Flagged any unjustified figurative polysemous word. Achieved strong separation but could not distinguish between a skilled human figurative construction and an LLM-generated one at the individual word level.
 
-**Detector v3 (orphaned sophistication).** The instrument reported in this paper. Identifies figurative polysemous words using v2's mechanisms, then subjects each to the three orphanhood tests (Section 3.3). Fully deterministic: no neural network, no LLM, no learned parameters. All thresholds set a priori.
+**Detector v3 (orphaned sophistication).** The instrument reported in this paper. Identifies figurative polysemous words using v2's mechanisms, then subjects each to the three orphanhood tests (Section 3.3). Fully deterministic, requiring neither neural networks, LLM judgment, nor learned parameters. All thresholds set a priori.
 
 ### 4.4 Statistical Methods
 
