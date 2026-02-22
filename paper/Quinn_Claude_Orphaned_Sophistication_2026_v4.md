@@ -457,11 +457,9 @@ We identify nine directions for future work, ordered from immediate empirical ex
 
 ## 8. Conclusion
 
-We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural architecture that would justify them. In pooled analysis across three independent model families, our detector achieves significant separation between human and LLM text (Fisher's p = 0.006, Cohen's h = 0.71, n = 125).
+We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural integrity that would justify them. In pooled analysis across three independent model families, our detector achieves significant separation between human and LLM text (Fisher's p = 0.006, Cohen's h = 0.71, n = 125).
 
 The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested (Section 7.8).
-
-The machine writes well. The architecture is missing.
 
 ## References
 
