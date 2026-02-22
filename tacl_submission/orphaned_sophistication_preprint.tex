@@ -365,13 +365,13 @@ We identify nine directions for future work, ordered from immediate empirical ex
 
 \section{Conclusion}
 
-We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. In pooled analysis across three independent model families, our experiments provide statistically significant evidence for the artifact (Fisher's $p = 0.006$, Cohen's $h = 0.71$, $n = 125$). The artifact arises, we argue, from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural integrity that would earn them.
+We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural integrity that would justify them. In pooled analysis across three independent model families, our detector achieves significant separation between human and LLM text (Fisher's $p = 0.006$, Cohen's $h = 0.71$, $n = 125$).
 
-The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested (Section 7.8).
+The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested (Section~\ref{sec:future}).
 
 \section*{LLM Assistance Disclosure}
 
-This paper was written with the assistance of several large language models used as research tools. Claude Opus 4 (Anthropic) was used to implement detection algorithms, reproduce published passages from training data for Corpus A, generate statistical analyses, and draft the manuscript under the author's direction. Claude Sonnet 4, Claude Haiku 3.5, GPT-4o, and Gemini 2.5 Flash generated the respective LLM test corpora. No model involved in corpus generation was involved in scoring: all detection was performed by deterministic rule-based algorithms.
+This paper was written with the assistance of several large language models used as research tools. Claude Opus 4 (Anthropic) was used to write the code for the detection algorithms, reproduce published passages from training data for Corpus A, generate statistical analyses, and draft the manuscript under the author's direction. The resulting detection code is fully deterministic and rule-based; once written, it runs without LLM involvement. Claude Sonnet 4, Claude Haiku 3.5, GPT-4o, and Gemini 2.5 Flash generated the respective LLM test corpora. No model involved in corpus generation was involved in scoring.
 
 \bibliography{references}
 
