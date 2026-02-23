@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 
-\usepackage[review]{acl}
+\usepackage[]{tacl2021v1}
 
 \usepackage{times}
 \usepackage{latexsym}
@@ -315,7 +315,32 @@ If the over-indexing hypothesis is correct, orphaned sophistication should be pr
 
 The hypothesis predicts that any domain where models are trained on corpora dominated by exceptional exemplars will exhibit an analogous artifact. \citet{du2026overcoming} independently identify ``hard negatives'' in computational drug repurposing: well-studied compounds appearing ideal due to high knowledge-graph connectivity but failing clinically. The mechanism is structurally identical: FDA-approved drugs dominate training corpora through citation and patent literature, producing the same over-indexing dynamic. Graph neural networks learn to produce binding moieties resembling successful drugs as default output, locally brilliant binding predictions structurally orphaned from the ADMET properties that would make them clinically viable. This corresponds to the ``activity cliff'' problem in medicinal chemistry \citep{stumpfe2012activity}.
 
-The mapping is exact: a high-affinity binding moiety without metabolic stability is an orphaned figurative word. Isolation, chain disconnection, and lack of preparation all have molecular analogues. The convergence, observed independently in a different modality by researchers with no knowledge of the orphanhood framework, suggests the pathology is a general property of training-data distributional bias. (We note that Du et al.\ is a bioRxiv preprint not yet peer-reviewed.)
+The mapping is exact: a high-affinity binding moiety without metabolic stability is an orphaned figurative word. Isolation, chain disconnection, and lack of preparation all have molecular analogues. The convergence, observed independently in a different modality by researchers with no knowledge of the orphanhood framework, suggests the pathology is a general property of training-data distributional bias. (We note that Du et al.\ is a bioRxiv preprint not yet peer-reviewed.) See Section~\ref{sec:future}, item 9, for the corresponding research agenda.
+
+\subsection{Future Directions}
+\label{sec:future}
+
+We identify nine directions for future work, ordered from immediate empirical extensions to more speculative theoretical predictions.
+
+\begin{enumerate}
+\item \textbf{Scaled replication.} A study with $\geq$200 passages across additional domains would strengthen per-model and per-domain claims and permit meaningful multiple-comparison correction.
+
+\item \textbf{Baseline detector comparison.} Running DetectGPT, GPTZero, and watermark-based methods on the same corpus would establish whether the orphanhood signal is orthogonal to existing detection methods.
+
+\item \textbf{Open-weight models.} Testing on Llama 3, Mistral, and Gemma would extend the generalizability claim and permit direct inspection of training data and model weights.
+
+\item \textbf{Mid-tier human prose.} Characterizing the false positive rate on competent-but-not-elite writing (workshop fiction, genre fiction, journalistic features) is essential before any practical deployment.
+
+\item \textbf{Uncontaminated human corpus.} Passages directly transcribed from physical books would eliminate the provenance concern described in Section 4.2.
+
+\item \textbf{Abstract registers.} Extension to emotional, philosophical, and political registers requires new domain-literal sets. Whether the signal persists where figurative language is less physically grounded is an open question.
+
+\item \textbf{Fine-tuning resistance.} If the over-indexing hypothesis is correct, the signal should resist removal by post-processing. Whether targeted fine-tuning could selectively reduce orphanhood without degrading prose quality would constitute a strong test: if the signal can be trained out cheaply, the over-indexing explanation is weakened.
+
+\item \textbf{Cross-domain validation.} Systematic testing in legal document generation, scientific writing, and financial analysis would determine whether the three-dimensional diagnostic transfers with appropriate domain vocabulary.
+
+\item \textbf{Constrained-vocabulary environments.} The over-indexing mechanism predicts a qualitatively different outcome in domains where polysemy is structurally impossible. In computer code, every token is monosemous: a function name can only mean what its definition specifies. The same training-weight concentration that produces orphaned sophistication in prose would, in code, produce pattern-matching on well-architected exemplars from heavily-cited repositories \citep{chen2021codex,austin2021program}. Because code has deterministic correctness criteria, the compiler enforces structural integration: a locally sophisticated pattern either works within the surrounding architecture or fails to execute. The over-indexing liability in literary prose (locally brilliant, structurally orphaned) becomes, we hypothesize, an asset in code (locally idiomatic, structurally constrained to integrate). This predicts that models exhibiting the strongest over-indexing should perform disproportionately well in constrained-vocabulary environments. Testing would require adapting the orphanhood framework's logic to code-structure analogues (function isolation from calling context, API chain connectivity, type-preparation through declarations) and comparing over-indexing signatures across model families in both prose and code tasks.
+\end{enumerate}
 
 \section*{Limitations}
 \label{sec:limitations}
@@ -340,7 +365,7 @@ The mapping is exact: a high-affinity binding moiety without metabolic stability
 
 We have identified and formalized a novel artifact of autoregressive language generation: orphaned sophistication. The artifact arises from training-weight over-indexing on exceptional exemplars, causing models to produce locally sophisticated outputs without the structural integrity that would justify them. In pooled analysis across three independent model families, our detector achieves significant separation between human and LLM text (Fisher's $p = 0.006$, Cohen's $h = 0.71$, $n = 125$).
 
-The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested.
+The uncanny valley of AI prose is a measurable structural coherence failure. The detector identifies where figurative constructions lack architectural support and what structural work would close the gap. Whether the signal persists under fine-tuning, extends to abstract registers, or inverts in constrained-vocabulary environments where compilers enforce integration remains to be tested (Section~\ref{sec:future}).
 
 \section*{LLM Assistance Disclosure}
 
@@ -348,7 +373,7 @@ This paper was written with the assistance of several large language models used
 
 \section*{Code and Data Availability}
 
-Detection algorithms, experiment scripts, and corpus data are available at \url{https://github.com/raeq/latent-semantic-recruitment}.
+Detection algorithms, experiment scripts, and corpus data will be released upon publication.
 
 \bibliography{references}
 
